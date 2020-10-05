@@ -14,17 +14,17 @@ export default function Nav() {
           </Link>
         </li>
         <li>
-          <Link to="projects" className={classes.navLink}>
+          <Link to="/projects" className={classes.navLink}>
             Projects
           </Link>
         </li>
         <li>
-          <Link to="about" className={classes.navLink}>
+          <Link to="/about" className={classes.navLink}>
             About
           </Link>
         </li>
         <li>
-          <Link to="contact" className={classes.navLink}>
+          <Link to="/contact" className={classes.navLink}>
             Contact
           </Link>
         </li>
