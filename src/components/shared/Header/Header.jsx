@@ -1,6 +1,16 @@
 import React from "react"
-import "./Header.js"
+import useStyles from "./Header.js"
+
+import Nav from '../Nav/Nav.jsx'
+
 
 export default function Header() {
-  return <></>
+  const classes = useStyles()
+  return (
+    <>
+      <div className={classes.headerContainer}>
+        <Nav />
+      </div>
+    </>
+  )
 }

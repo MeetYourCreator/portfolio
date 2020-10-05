@@ -1,8 +1,12 @@
 import { createUseStyles } from 'react-jss'
 
 const useStyles = createUseStyles({
-  header: {
+  headerContainer: {
+    display: 'flex',
+    flexDirection: 'row'
 
   },
 
 })
+
+export default useStyles;
