@@ -11,17 +11,17 @@ function App() {
   return (
     <>
       <Switch>
-        <Route path="/">
-          <Home />
-        </Route>
-        <Route path="/projects">
-          <Projects />
+        <Route path="/contact">
+          <Contact />
         </Route>
         <Route path="/about">
           <About />
         </Route>
-        <Route path="/contact">
-          <Contact />
+        <Route path="/projects">
+          <Projects />
+        </Route>
+        <Route path="/">
+          <Home />
         </Route>
       </Switch>
     </>

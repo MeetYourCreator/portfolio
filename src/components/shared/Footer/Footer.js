@@ -7,7 +7,7 @@ const useStyles = createUseStyles({
     justifyContent: 'space-evenly',
     backgroundColor: 'rgb(0,0,0)',
     width: '100vw',
-    height: '10vw',
+    height: '5vw',
     color: 'white'
   }
 
