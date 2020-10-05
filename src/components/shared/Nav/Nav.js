@@ -4,17 +4,17 @@ const useStyles = createUseStyles({
   navContainer: {
     display: 'flex',
     flexDirection: 'row',
-    justifyContent: 'center',
+    justifyContent: 'space-between',
   
   },
 
   navLink: {
     display: 'flex',
     flexDirection: 'row',
-    justifyContent: 'space-evenly',
+    paddingLeft: 50,
     color: 'white',
     outline: 'none',
-    textDeopration: 'none',
+    textDecoration: 'none',
     listStyle: 'none'
   }
 
