@@ -1,7 +1,7 @@
 import React from "react"
 import useStyles from "./Layout.js"
 import Header from "../Header/Header.jsx"
-import Footer from "../Footer/Footer.jsx"
+// import Footer from "../Footer/Footer.jsx"
 
 export default function Layout({ children }) {
   const classes = useStyles()
@@ -10,7 +10,7 @@ export default function Layout({ children }) {
     <div className={classes.layout}>
       <Header />
       <div className={classes.layoutChildren}>{children}</div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
