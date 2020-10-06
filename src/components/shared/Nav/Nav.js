@@ -6,7 +6,7 @@ const useStyles = createUseStyles({
     flexDirection: 'row',
     justifyContent: 'space-between',
     listStyle: 'none',
-    fontFamily: 'Bebas Neue'
+    fontFamily: 'Bungee Inline'
   
   },
 

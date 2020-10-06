@@ -4,16 +4,17 @@ const useStyles = createUseStyles({
   aboutContainer: {
     display: 'flex',
     flexDirection: 'column',
-    jhustifyContent: 'center',
+    justifyContent: 'center',
     backgroundColor: 'white',
-    fontFamily: 'Bebas Neue'
+    fontFamily: 'Bungee Hairline',
+    fontSize: 10
   },
 
   aboutTitle: {
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'flex-end',
-    paddingRight: 20
+    paddingRight: 15
   },
 
   press: {
