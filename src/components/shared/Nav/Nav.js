@@ -5,7 +5,8 @@ const useStyles = createUseStyles({
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-between',
-    listStyle: 'none'
+    listStyle: 'none',
+    fontFamily: 'Bebas Neue'
   
   },
 
@@ -15,7 +16,8 @@ const useStyles = createUseStyles({
     paddingLeft: 50,
     color: 'white',
     outline: 'none',
-    textDecoration: 'none'
+    textDecoration: 'none',
+    fontSize: 20
   }
 
 })

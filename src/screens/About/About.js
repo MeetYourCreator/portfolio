@@ -5,7 +5,15 @@ const useStyles = createUseStyles({
     display: 'flex',
     flexDirection: 'column',
     jhustifyContent: 'center',
-    backgroundColor: 'blue'
+    backgroundColor: 'white',
+    fontFamily: 'Bebas Neue'
+  },
+
+  aboutTitle: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+    paddingRight: 20
   },
 
   press: {
@@ -13,7 +21,7 @@ const useStyles = createUseStyles({
     flexDirection: 'column',
     flexWrap: 'nowrap',
     justifyContent: 'space-evenly',
-    backgroundColor: 'yellow'
+    backgroundColor: 'black'
   },
 
   pressBox: {
@@ -25,8 +33,7 @@ const useStyles = createUseStyles({
   image: {
     display: 'flex',
     width: 700,
-    paddingTop: 10,
-    paddingBottom: 10,
+    paddingBottom: 25,
     paddingLeft: 20,
   }
 

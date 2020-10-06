@@ -9,12 +9,12 @@ const useStyles = createUseStyles({
     overflow: 'hidden'
   },
 
-  // layoutChildren: {
-  //   overflow: 'hidden',
-  //   scrollBehaviour: 'smooth',
-  //   scrollSnapType: 'y mandatory',
-  //   scrollSnapAlign: 'center'
-  // }
+  layoutChildren: {
+    overflow: 'hidden',
+    scrollBehaviour: 'smooth',
+    scrollSnapType: 'y mandatory',
+    scrollSnapAlign: 'center'
+  }
 
 })
 

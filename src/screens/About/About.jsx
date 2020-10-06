@@ -16,23 +16,31 @@ export default function About() {
     <>
       <Layout>
         <div className={classes.aboutContainer}>
-          <h1>About</h1>
+          <h1 className={classes.aboutTitle}>About Rami Zackary Shamir</h1>
           <div className={classes.press}>
             <h2>Press</h2>
             <div className={classes.pressBox}>
-              <img src={Printmag} className={classes.image} />
+              <a href="https://www.printmag.com/post/the-spirit-of-barney-rosset-lives-on-the-train-to-pokipse">
+                <img src={Printmag} className={classes.image} />
+              </a>
             </div>
             <div className={classes.pressBox}>
-              <img src={HuffingtonPost} className={classes.image} />
+              <a href="https://www.huffpost.com/entry/rami-shamir-interview_b_3710947">
+                <img src={HuffingtonPost} className={classes.image} />
+              </a>
+            </div>
+            <div className={classes.pressBox}>
+              <a href="https://www.wsj.com/articles/BL-METROB-14093">
+                <img src={WSJ} className={classes.image} />
+              </a>
+            </div>
+            <div className={classes.pressBox}>
+              <a href="https://www.breitbart.com/politics/2011/10/24/fl-bankers-wife-abandons-children-for-very-important-occupywallstreet-cleaning-duties/">
+                <img src={Breitbart} className={classes.image} />
+              </a>
             </div>
             <div className={classes.pressBox}>
               <img src={Adbusters103} className={classes.image} />
-            </div>
-            <div className={classes.pressBox}>
-              <img src={Breitbart} className={classes.image} />
-            </div>
-            <div className={classes.pressBox}>
-              <img src={WSJ} className={classes.image} />
             </div>
             <div className={classes.pressBox}>
               <img src={TranslatingAnarchy} className={classes.image} />
