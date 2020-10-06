@@ -18,7 +18,7 @@ export default function About() {
         <div className={classes.aboutContainer}>
           <h1 className={classes.aboutTitle}>About Rami Zackary Shamir</h1>
           <div className={classes.press}>
-            <h2>Press</h2>
+            <h2 className={classes.aboutTitleSection}>Press</h2>
             <div className={classes.pressBox}>
               <a href="https://www.printmag.com/post/the-spirit-of-barney-rosset-lives-on-the-train-to-pokipse">
                 <img src={Printmag} className={classes.image} />

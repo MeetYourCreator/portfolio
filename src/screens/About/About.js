@@ -17,6 +17,13 @@ const useStyles = createUseStyles({
     paddingRight: 15
   },
 
+  aboutTitleSection: {
+    display: 'flex',
+    justifyContent: 'space-evenly',
+    color: 'white',
+    fontSize: 20
+  },
+
   press: {
     display: 'flex',
     flexDirection: 'column',

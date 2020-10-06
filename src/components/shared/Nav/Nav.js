@@ -4,9 +4,11 @@ const useStyles = createUseStyles({
   navContainer: {
     display: 'flex',
     flexDirection: 'row',
-    justifyContent: 'space-between',
+    justifyContent: 'space-around',
     listStyle: 'none',
-    fontFamily: 'Bungee Inline'
+    fontFamily: 'Bungee Inline',
+    fontSize: 20,
+    letterSpacing: '2px'
   
   },
 
@@ -17,7 +19,7 @@ const useStyles = createUseStyles({
     color: 'white',
     outline: 'none',
     textDecoration: 'none',
-    fontSize: 20
+    
   }
 
 })
