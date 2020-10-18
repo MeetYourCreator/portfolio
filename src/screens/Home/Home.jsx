@@ -1,4 +1,5 @@
 import React from "react"
+import './Home.css'
 import Layout from "../../components/shared/Layout/Layout.jsx"
 import Video from "../../components/Video/Video.jsx"
 
@@ -8,7 +9,9 @@ export default function Home() {
   return (
     <>
       <Layout>
-        <Video src={BackgroundVideo} />
+        <div className="video">
+          <Video src={BackgroundVideo} />
+        </div>
       </Layout>
     </>
   )
