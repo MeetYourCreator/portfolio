@@ -1,12 +1,11 @@
 import React from "react"
-import useStyles from "./Video.js"
+import "./Video.css"
 
 const Video = ({src}) => {
-  const classes = useStyles()
-
+  
   return (
     <>
-      <div className={classes.video}>
+      <div className='video'>
         <video autoPlay muted loop pointerEvents="none">
           <source src={src} type="video/mp4" />
         </video>
