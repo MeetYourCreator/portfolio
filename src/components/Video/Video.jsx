@@ -6,7 +6,7 @@ const Video = ({src}) => {
   return (
     <>
       <div className='video'>
-        <video autoPlay muted loop pointerEvents="none">
+        <video autoPlay={true} muted={true} loop={true}>
           <source src={src} type="video/mp4" />
         </video>
       </div>

@@ -1,4 +1,4 @@
 .video {
-  pointer-events: none;
+  border-top: 10px solid black;
 }
 
