@@ -2,7 +2,7 @@
 .project-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   pointer-events: none;
   color: #ffffff;
   font-size: 15px;
@@ -50,7 +50,7 @@
  display: flex;
  flex-direction: row;
  outline: none;
- justify-content: space-between;
+ justify-content: space-evenly;
  text-decoration: none;
 }
 
@@ -69,5 +69,4 @@ a {
 outline: none;
 text-decoration: none;
 color: rgb(255,162,190);
-margin: 20px;
 }
