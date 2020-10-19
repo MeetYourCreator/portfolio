@@ -14,14 +14,25 @@
 .project-info {
   display: flex;
   flex-direction: column;
-  margin-top: 200px;
+  margin-top: 160px;
   margin-left: 20px;
+  font-family: 'Bungee Inline', cursive;
   
   }
 
 .project-description {
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: -10px;
+  font-family: 'Bungee Hairline', cursive;
+}
+
+.project-description-byline {
   font-size: 20px;
   font-weight: 900;
+  margin-top: -25px;
+  margin-bottom: 34px;
+  font-family: 'Bungee Hairline', cursive;
 }
 
 .project-video {
@@ -42,6 +53,8 @@
 ul {
 display: flex;
 flex-direction: column;
+font-family: 'Bungee Hairline', cursive;
+font-size: 15px;
 
   }
 

@@ -6,6 +6,7 @@ const Project = ({
   src,
   title,
   description,
+  descriptionByline,
   descriptionFeature1,
   descriptionFeature2,
   descriptionFeature3,
@@ -19,7 +20,8 @@ const Project = ({
         <div className="project-info">
           <h1 className="project-title">{title}</h1>
           <p className="project-description">{description}</p>
-          Features include:
+          <p className="project-description-byline">{descriptionByline}</p>
+          Application features:
           <ul>
             <li>{descriptionFeature1}</li>
             <li>{descriptionFeature2}</li>
@@ -27,8 +29,8 @@ const Project = ({
             <li>{descriptionFeature4}</li>
           </ul>
           <div classNAme="external-links">
-            <a href={codeSRC}>View the Code</a>
-            <a href={projectSRC}>View the Project</a>
+            <a href={codeSRC}>View Code</a> ||{" "}
+            <a href={projectSRC}>View Project</a>
           </div>
         </div>
         <div className="project-video">
