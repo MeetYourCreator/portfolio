@@ -2,8 +2,8 @@
 .project-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  object-fit: cover;
+  justify-content: space-evenly;
+ 
   pointer-events: none;
   color: #ffffff;
   font-size: 15px;
@@ -14,7 +14,7 @@
 .project-info {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
+  margin-top: 200px;
   margin-left: 20px;
   
   }
@@ -22,6 +22,15 @@
 .project-description {
   font-size: 20px;
   font-weight: 900;
+}
+
+.project-video {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  object-fit: cover;
+  margin: 80px;
+
 }
 
 .external-links {
@@ -33,7 +42,7 @@
 ul {
 display: flex;
 flex-direction: column;
-list-style: none;
+
   }
 
 li {
