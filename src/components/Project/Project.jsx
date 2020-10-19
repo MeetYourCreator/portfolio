@@ -21,7 +21,7 @@ const Project = ({
           <h1 className="project-title">{title}</h1>
           <p className="project-description">{description}</p>
           <p className="project-description-byline">{descriptionByline}</p>
-          Application features:
+          <span className="features-heading">Application features:</span>
           <ul>
             <li>{descriptionFeature1}</li>
             <li>{descriptionFeature2}</li>
@@ -29,7 +29,7 @@ const Project = ({
             <li>{descriptionFeature4}</li>
           </ul>
           <div classNAme="external-links">
-            <a href={codeSRC}>View Code</a> ||{" "}
+            <a href={codeSRC}>View Code</a> ||
             <a href={projectSRC}>View Project</a>
           </div>
         </div>
