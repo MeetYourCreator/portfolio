@@ -14,17 +14,21 @@ const Project = ({
   descriptionFeature4,
   codeSRC,
   projectSRC
+
 }) => {
+  
   return (
     <>
       <div className="project-container">
         <motion.div
-        animate={{ opacity: 1 }}
-        initial={{ opacity: 0 }}
-        transition={{
-          delay: 1, duration: 3,
-        }}
-        className="project-info">
+          animate={{ opacity: 1 }}
+          initial={{ opacity: 0 }}
+          transition={{
+            delay: 1,
+            duration: 3,
+          }}
+          className="project-info"
+        >
           <h1 className="project-title">{title}</h1>
           <p className="project-description">{description}</p>
           <p className="project-description-byline">{descriptionByline}</p>
@@ -40,8 +44,7 @@ const Project = ({
             <a href={projectSRC}>View Project</a>
           </div>
         </motion.div>
-        <motion.div
-          className="project-video">
+        <motion.div className="project-video">
           <Video src={src} />
         </motion.div>
       </div>

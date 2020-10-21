@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  pointer-events: none;
   color: #ffffff;
   font-size: 15px;
   margin: 10px;
