@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 import './Project.css'
 import Video from '../Video/Video.jsx'
 
@@ -17,7 +18,13 @@ const Project = ({
   return (
     <>
       <div className="project-container">
-        <div className="project-info">
+        <motion.div
+        animate={{ opacity: 1 }}
+        initial={{ opacity: 0 }}
+        transition={{
+          delay: 1, duration: 3,
+        }}
+        className="project-info">
           <h1 className="project-title">{title}</h1>
           <p className="project-description">{description}</p>
           <p className="project-description-byline">{descriptionByline}</p>
@@ -32,10 +39,11 @@ const Project = ({
             <a href={codeSRC}>View Code</a> ||
             <a href={projectSRC}>View Project</a>
           </div>
-        </div>
-        <div className="project-video">
+        </motion.div>
+        <motion.div
+          className="project-video">
           <Video src={src} />
-        </div>
+        </motion.div>
       </div>
     </>
   )
