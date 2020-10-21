@@ -1,9 +1,7 @@
 import React from 'react'
 import './Projects.css'
-
 import Layout from '../../components/shared/Layout/Layout.jsx'
 import Project from '../../components/Project/Project.jsx'
-
 import TwelveStepAlphabet from "../../Assets/NEW MASTER FOR RENDER.mp4"
 import NewAlternatives from "../../Assets/new-alternatives-vid.mp4"
 
@@ -35,20 +33,23 @@ export default function Projects() {
             descriptionFeature2="Scope of implementing carousels in React on display with four distinct carousel iterations"
             descriptionFeature3="Proficient knowledge of git and github workflows in collaboration of four member dev team"
             descriptionFeature4="Seemless integratation of MongoDB, Express, React, and Nodemon to implement full CRUD functionality"
+            codeSRC="https://github.com/chrisratsimba123/new-alternatives-app"
+            projectSRC="https://new-alternatives.netlify.app/"
           />
           <Project
             src={NewAlternatives}
             title="Frankenpol"
             description="React + Airtable API"
-            descriptionByline="Frankenstein political figures rendered with the press of a button"
-            descriptionFeature1="High Fidelity build of UX Team design concept"
-            descriptionFeature2="Scope of implementing carousels in React on display with four distinct carousel iterations"
-            descriptionFeature3="Proficient knowledge of git and github workflows in collaboration of four member dev team"
-            descriptionFeature4="Seemless integratation of MongoDB, Express, React, and Nodemon to implement full CRUD functionality"
+            descriptionByline=""
+            descriptionFeature1=""
+            descriptionFeature2=""
+            descriptionFeature3=""
+            descriptionFeature4=""
+            codeSRC=""
+            projectSRC=""
           />
         </div>
       </Layout>
     </>
   )
-
 }
