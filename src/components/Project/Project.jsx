@@ -40,8 +40,25 @@ const Project = ({
             <li>{descriptionFeature4}</li>
           </ul>
           <div className="external-links">
-            <a href={codeSRC}>View Code</a> ||
-            <a href={projectSRC}>View Project</a>
+            <motion.a
+              href={codeSRC}
+              whileHover={{
+                scale: 1.5,
+                textShadow: "0px 0px 8px rgb(255,162,190)"
+              }}
+            >
+              View Code
+            </motion.a>{" "}
+            ||
+            <motion.a
+              href={projectSRC}
+              whileHover={{
+                scale: 1.5,
+                textShadow: "0px 0px 8px rgb(255,162,190)",
+              }}
+            >
+              View Project
+            </motion.a>
           </div>
         </motion.div>
         <motion.div className="project-video">
