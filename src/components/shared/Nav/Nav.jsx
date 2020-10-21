@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { motion, AnimatePresence } from 'framer-motion'
 import useStyles from './Nav.js'
 
 export default function Nav() {
@@ -30,7 +29,5 @@ export default function Nav() {
           </Link>
         </li>
       </ul>
-    
   )
-
 }
