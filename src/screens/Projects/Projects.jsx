@@ -34,7 +34,7 @@ export default function Projects() {
             descriptionFeature3="Proficient knowledge of git and github workflows in collaboration of four member dev team"
             descriptionFeature4="Seemless integratation of MongoDB, Express, React, and Nodemon to implement full CRUD functionality"
             codeSRC="https://github.com/chrisratsimba123/new-alternatives-app"
-            projectSRC=""
+            projectSRC="https://new-alternatives.netlify.app/our-stories"
           />
           <Project
             src={NewAlternatives}
