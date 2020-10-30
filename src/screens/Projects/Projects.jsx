@@ -22,7 +22,7 @@ export default function Projects() {
             descriptionFeature3="Mapbox GeoLocation API to retrieve user location and  Mapbox Directions API provide full navigation functionality"
             descriptionFeature4="Comprehensive meeting directory for Alcoholics Anonymous, Crystal Meth Anonymous, Narcotics Anonymous, and ALANON"
             codeSRC="https://github.com/crimethinkWithMe/twelve-step-alphabet/tree/develop"
-            projectSRC=""
+            projectSRC="https://twelve-step-alphabet.netlify.app/"
           />
           <Project
             src={NewAlternatives}
@@ -36,7 +36,7 @@ export default function Projects() {
             codeSRC="https://github.com/chrisratsimba123/new-alternatives-app"
             projectSRC="https://new-alternatives.netlify.app/our-stories"
           />
-          <Project
+          {/* <Project
             src={NewAlternatives}
             title="Frankenpol"
             description="React + Airtable API"
@@ -47,7 +47,7 @@ export default function Projects() {
             descriptionFeature4=""
             codeSRC=""
             projectSRC=""
-          />
+          />*/}
         </div>
       </Layout>
     </>
