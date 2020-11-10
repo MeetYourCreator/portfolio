@@ -21,7 +21,7 @@ export default function Projects() {
             descriptionFeature2="Mapbox APIs to render full color maps for each meeting entry"
             descriptionFeature3="Mapbox GeoLocation API to retrieve user location and  Mapbox Directions API provide full navigation functionality"
             descriptionFeature4="Comprehensive meeting directory for Alcoholics Anonymous, Crystal Meth Anonymous, Narcotics Anonymous, and ALANON"
-            codeSRC="https://github.com/crimethinkWithMe/twelve-step-alphabet/tree/develop"
+            codeSRC="https://github.com/MeetYourCreator/twelve-step-alphabet"
             projectSRC="https://twelve-step-alphabet.netlify.app/"
           />
           <Project
