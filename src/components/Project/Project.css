@@ -43,7 +43,7 @@
   flex-direction: column;
   width: 900px;
   object-fit: cover;
-  margin: 80px;
+  margin: 50px 20px auto 39px ;
 }
 
 .external-links {
