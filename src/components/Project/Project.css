@@ -5,16 +5,16 @@
   justify-content: space-around;
   color: #ffffff;
   font-size: 15px;
-  margin: 10px;
+  margin: 80px auto auto 20px;
   width: 100%;
   }
   
 .project-info {
   display: flex;
   flex-direction: column;
-  margin-top: 160px;
   margin-left: 40px;
   font-family: 'Bungee Inline', cursive;
+  
   }
 
 .features-heading {
@@ -27,6 +27,7 @@
   font-weight: 900;
   margin-top: -10px;
   font-family: 'Bungee Hairline', cursive;
+  
 }
 
 .project-description-byline {
@@ -58,14 +59,17 @@ display: flex;
 flex-direction: column;
 font-family: 'Bungee Hairline', cursive;
 font-size: 15px;
+
   }
 
 li {
   padding-top: 10px;
+  font-weight: 900;
 }
 
 a {
 outline: none;
 text-decoration: none;
 color: rgb(255,162,190);
+font-weight: 900;
 }

@@ -26,7 +26,7 @@ export default function About() {
             command of back-end technologies such as Ruby-on-Rails, MongoDB,
             Express.js, and Node.js to deploy full stack applications with full CRUD functionality. My previous roles as an editor, designer, activist, and project manager afford me a unique
             understanding of user and participant experience, which I now
-            leverage to program intuitive, client-oriented applications in my
+            administer to program intuitive, client-oriented applications in my
             role as a software engineer. In addition to the projects highlighted in my portfolio, my ability to fully meet any set of deliverables is well-documented in
             a wide-ranging set of online resources, which include successful
             fundraising campaigns and press coverage spanning a decade.
