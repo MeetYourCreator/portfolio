@@ -17,6 +17,20 @@ export default function About() {
       <Layout>
         <div className={classes.aboutContainer}>
           <h1 className={classes.aboutTitle}>About Rami Zackary Shamir</h1>
+          <section className={classes.aboutBio}>
+            A founding member of the Occupy Wall Street movement, I'm a
+            front-end developer with expertise in design and 10 years of New
+            York City agency experience managing teams to execute innovative
+            solutions. As demonstrated in my portfolio project pieces, I'm
+            proficient in React and Javascript, comfortably leveraging my
+            command of back-end technologies such as Ruby-on-Rails, MongoDB,
+            Express.js, and Node.js to deploy full stack applications with full CRUD functionality. My previous roles as an editor, designer, activist, and project manager afford me a unique
+            understanding of user and participant experience, which I now
+            leverage to program intuitive, client-oriented applications in my
+            role as a software engineer. In addition to the projects highlighted in my portfolio, my ability to fully meet any set of deliverables is well-documented in
+            a wide-ranging set of online resources, which include successful
+            fundraising campaigns and press coverage spanning a decade.
+          </section>
           <div className={classes.press}>
             <h2 className={classes.aboutTitleSection}>Press</h2>
             <div className={classes.pressBox}>

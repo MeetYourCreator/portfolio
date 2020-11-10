@@ -14,7 +14,21 @@ const useStyles = createUseStyles({
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'flex-end',
+    fontWeight: 900,
     paddingRight: 15
+  },
+
+  aboutBio: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+    padding: 30,
+    fontSize: 15,
+    textAlign: 'justify',
+    textJustify: 'inter-word',
+    fontFamily: 'Bungee Hairline',
+    fontWeight: 900,
+    borderTop: '5px solid black'
   },
 
   aboutTitleSection: {
