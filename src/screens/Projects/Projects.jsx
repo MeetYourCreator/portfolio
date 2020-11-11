@@ -21,8 +21,8 @@ export default function Projects() {
             descriptionFeature2="Mapbox APIs to render full color maps for each meeting entry"
             descriptionFeature3="Mapbox GeoLocation API to retrieve user location and  Mapbox Directions API provide full navigation functionality"
             descriptionFeature4="Comprehensive meeting directory for Alcoholics Anonymous, Crystal Meth Anonymous, Narcotics Anonymous, and ALANON"
-            codeSRC="https://github.com/MeetYourCreator/twelve-step-alphabet"
-            projectSRC="https://twelve-step-alphabet.netlify.app/"
+            codeSRC="https://bit.ly/12step_gh"
+            projectSRC="https://bit.ly/12step_app"
           />
           <Project
             src={NewAlternatives}
@@ -33,8 +33,8 @@ export default function Projects() {
             descriptionFeature2="Scope of implementing carousels in React on display with four distinct carousel iterations"
             descriptionFeature3="Proficient knowledge of git and github workflows in collaboration of four member dev team"
             descriptionFeature4="Seemless integratation of MongoDB, Express, React, and Nodemon to implement full CRUD functionality"
-            codeSRC="https://github.com/chrisratsimba123/new-alternatives-app"
-            projectSRC="https://new-alternatives.netlify.app/our-stories"
+            codeSRC="https://bit.ly/newAlt_gh"
+            projectSRC="https://bit.ly/newAlt_site"
           />
           {/* <Project
             src={NewAlternatives}
