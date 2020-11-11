@@ -1,11 +1,11 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import { motion } from 'framer-motion'
-import useStyles from './Nav.js'
+import React from "react"
+import { Link } from "react-router-dom"
+import { motion } from "framer-motion"
+import useStyles from "./Nav.js"
 
 export default function Nav() {
   const classes = useStyles()
-  
+
   return (
     <ul className={classes.navContainer}>
       <motion.li

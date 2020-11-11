@@ -1,16 +1,15 @@
 import React from "react"
 import useStyles from "./Header.js"
 
-import Nav from '../Nav/Nav.jsx'
-
+import Nav from "../Nav/Nav.jsx"
 
 export default function Header() {
   const classes = useStyles()
   return (
     <>
-      <div className={classes.headerContainer}>
+      <header className={classes.headerContainer}>
         <Nav />
-      </div>
+      </header>
     </>
   )
 }

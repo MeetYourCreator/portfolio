@@ -9,7 +9,7 @@ const useStyles = createUseStyles({
     fontFamily: 'Bungee Inline',
     fontSize: 20,
     letterSpacing: '2px'
-  
+
   },
 
   navLink: {
@@ -19,7 +19,7 @@ const useStyles = createUseStyles({
     color: 'white',
     outline: 'none',
     textDecoration: 'none',
-    
+
   }
 
 })

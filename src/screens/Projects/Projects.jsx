@@ -1,12 +1,11 @@
-import React from 'react'
-import './Projects.css'
-import Layout from '../../components/shared/Layout/Layout.jsx'
-import Project from '../../components/Project/Project.jsx'
+import React from "react"
+import "./Projects.css"
+import Layout from "../../components/shared/Layout/Layout.jsx"
+import Project from "../../components/Project/Project.jsx"
 import TwelveStepAlphabet from "../../Assets/NEW MASTER FOR RENDER.mp4"
 import NewAlternatives from "../../Assets/new-alternatives-vid.mp4"
 
 export default function Projects() {
-  
   return (
     <>
       <Layout>

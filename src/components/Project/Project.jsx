@@ -1,7 +1,7 @@
-import React from 'react'
-import { motion } from 'framer-motion'
-import './Project.css'
-import Video from '../Video/Video.jsx'
+import React from "react"
+import { motion } from "framer-motion"
+import "./Project.css"
+import Video from "../Video/Video.jsx"
 
 const Project = ({
   src,
@@ -13,10 +13,8 @@ const Project = ({
   descriptionFeature3,
   descriptionFeature4,
   codeSRC,
-  projectSRC
-
+  projectSRC,
 }) => {
-  
   return (
     <>
       <div className="project-container">
@@ -44,7 +42,7 @@ const Project = ({
               href={codeSRC}
               whileHover={{
                 scale: 1.5,
-                textShadow: "0px 0px 8px rgb(255,162,190)"
+                textShadow: "0px 0px 8px rgb(255,162,190)",
               }}
             >
               View Code
@@ -69,4 +67,4 @@ const Project = ({
   )
 }
 
-export default Project;
+export default Project
