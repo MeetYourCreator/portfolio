@@ -14,6 +14,15 @@ const useStyles = createUseStyles({
     scrollBehaviour: 'smooth',
     scrollSnapType: 'y mandatory',
     scrollSnapAlign: 'center'
+  },
+
+  '@media (max-width: 415px)': {
+    layout: {
+      display: 'flex',
+      width: '100%',
+      padding: 0,
+      marginTop: 0,
+    }
   }
 
 })

@@ -13,7 +13,7 @@ const useStyles = createUseStyles({
   aboutTitle: {
     display: 'flex',
     flexDirection: 'row',
-    justifyContent: 'flex-end',
+    justifyContent: 'center',
     fontWeight: 900,
     paddingRight: 15
   },

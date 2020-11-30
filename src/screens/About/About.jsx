@@ -16,7 +16,7 @@ export default function About() {
     <>
       <Layout>
         <div className={classes.aboutContainer}>
-          <h1 className={classes.aboutTitle}>About Rami Zackary Shamir</h1>
+          <h1 className={classes.aboutTitle}>Hi, My name is Rami!</h1>
           <section className={classes.aboutBio}>
             A founding member of the Occupy Wall Street movement, I'm a
             front-end developer with expertise in design and 10 years of New

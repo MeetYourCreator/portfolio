@@ -19,7 +19,8 @@ export default function Projects() {
               continental United States"
             descriptionFeature2="Mapbox APIs to render full color maps for each meeting entry"
             descriptionFeature3="Mapbox GeoLocation API to retrieve user location and  Mapbox Directions API provide full navigation functionality"
-            descriptionFeature4="Comprehensive meeting directory for Alcoholics Anonymous, Crystal Meth Anonymous, Narcotics Anonymous, and ALANON"
+            descriptionFeature4="Full CRUD functionality for users to post, edit, and delete reviews of their favorite (and not-so-favorite) 12 step meetings"
+            descriptionFeature5="Comprehensive meeting directory for Alcoholics Anonymous, Crystal Meth Anonymous, Narcotics Anonymous, and ALANON"
             codeSRC="https://bit.ly/12step_gh"
             projectSRC="https://bit.ly/12step_app"
           />
@@ -31,7 +32,7 @@ export default function Projects() {
             descriptionFeature1="High Fidelity build of UX Team design concept"
             descriptionFeature2="Scope of implementing carousels in React on display with four distinct carousel iterations"
             descriptionFeature3="Proficient knowledge of git and github workflows in collaboration of four member dev team"
-            descriptionFeature4="Seemless integratation of MongoDB, Express, React, and Nodemon to implement full CRUD functionality"
+            descriptionFeature4="Seemless integratation of MongoDB, Express, React, and Node.js to implement full CRUD functionality"
             codeSRC="https://bit.ly/newAlt_gh"
             projectSRC="https://bit.ly/newAlt_site"
           />

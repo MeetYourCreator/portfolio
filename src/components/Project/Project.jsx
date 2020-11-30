@@ -12,6 +12,7 @@ const Project = ({
   descriptionFeature2,
   descriptionFeature3,
   descriptionFeature4,
+  descriptionFeature5,
   codeSRC,
   projectSRC,
 }) => {
@@ -36,6 +37,7 @@ const Project = ({
             <li>{descriptionFeature2}</li>
             <li>{descriptionFeature3}</li>
             <li>{descriptionFeature4}</li>
+            <li>{descriptionFeature5}</li>
           </ul>
           <div className="external-links">
             <motion.a
