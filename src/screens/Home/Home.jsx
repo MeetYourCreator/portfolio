@@ -13,12 +13,12 @@ export default function Home() {
         <div className="video">
             <motion.div
             animate={{
-              opacity: [0, .25, .5, .75, 1],
-              scale: [6,5,4,3,2,1]
+              opacity: [0, 0.15, .25, 0.3,.5, 0.5, 0.65, .75, 0.85, 1],
+              scale: [8,7,6,5,4,3,2,1]
             }}
             initial={{
               opacity: 0,
-              scale: 15
+              scale: 18
             }}
         transition={{
           duration: 4,

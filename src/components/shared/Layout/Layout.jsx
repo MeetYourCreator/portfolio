@@ -2,7 +2,7 @@ import React from "react"
 import { motion } from "framer-motion"
 import useStyles from "./Layout.js"
 import Header from "../Header/Header.jsx"
-// import Footer from "../Footer/Footer.jsx"
+import Footer from "../Footer/Footer.jsx"
 
 export default function Layout({ children }) {
   const classes = useStyles()
@@ -14,15 +14,15 @@ export default function Layout({ children }) {
         animate={{ opacity: 1 }}
         initial={{ opacity: 0 }}
         transition={{
-          delay: 1,
-          duration: 3,
+          delay: 3,
+          duration: 6,
         }}
       >
         <Header />
       </motion.div>
       </header>
       <div className={classes.layoutChildren}>{children}</div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }
