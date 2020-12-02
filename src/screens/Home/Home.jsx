@@ -12,10 +12,15 @@ export default function Home() {
       <Layout>
         <div className="video">
             <motion.div
-        animate={{ opacity: 1 }}
-        initial={{ opacity: 0 }}
+            animate={{
+              opacity: [0, .25, .5, .75, 1],
+              scale: [6,5,4,3,2,1]
+            }}
+            initial={{
+              opacity: 0,
+              scale: 15
+            }}
         transition={{
-          delay: 2,
           duration: 4,
         }}>
             <Video src={BackgroundVideo} />
