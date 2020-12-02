@@ -1,4 +1,5 @@
 import React from "react"
+import { motion } from 'framer-motion'
 import "./Home.css"
 import Layout from "../../components/shared/Layout/Layout.jsx"
 import Video from "../../components/Video/Video.jsx"
@@ -10,7 +11,15 @@ export default function Home() {
     <>
       <Layout>
         <div className="video">
-          <Video src={BackgroundVideo} />
+            <motion.div
+        animate={{ opacity: 1 }}
+        initial={{ opacity: 0 }}
+        transition={{
+          delay: 2,
+          duration: 4,
+        }}>
+            <Video src={BackgroundVideo} />
+            </motion.div>
         </div>
       </Layout>
     </>
