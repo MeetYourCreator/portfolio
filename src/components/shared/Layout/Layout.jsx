@@ -22,7 +22,7 @@ export default function Layout({ children }) {
       </motion.div>
       </header>
       <div className={classes.layoutChildren}>{children}</div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
