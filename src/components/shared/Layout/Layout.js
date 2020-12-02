@@ -7,11 +7,12 @@ const useStyles = createUseStyles({
     width: '100vw',
     height: '100vh',
     backgroundColor: 'rgb(0,0,0)',
+
   },
 
   layoutChildren: {
     overflowX: 'hidden',
-    overflowY: 'auto',
+    overflowY: 'hidden',
   },
 
   // '@media (max-width: 415px)': {

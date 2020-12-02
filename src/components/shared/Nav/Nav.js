@@ -4,10 +4,11 @@ const useStyles = createUseStyles({
   navContainer: {
     display: 'flex',
     flexDirection: 'row',
-    justifyContent: 'space-around',
+    justifyContent: 'space-evenly',
     listStyle: 'none',
     fontFamily: 'Bungee Inline',
-    fontSize: 10,
+    fontSize: 12,
+    marginBottom: 10,
     letterSpacing: '2px'
 
   },
@@ -15,7 +16,8 @@ const useStyles = createUseStyles({
   navLink: {
     display: 'flex',
     flexDirection: 'row',
-    padding: 0,
+    paddingLeft: 15,
+    paddingRight: 15,
     color: 'white',
     outline: 'none',
     textDecoration: 'none',
@@ -26,7 +28,7 @@ const useStyles = createUseStyles({
     navContainer: {
       display: 'flex',
       flexDirection: 'row',
-      justifyContent: 'space-between',
+      justifyContent: 'space-evenly',
       listStyle: 'none',
       fontFamily: 'Bungee Inline',
       fontSize: 10,
@@ -37,8 +39,7 @@ const useStyles = createUseStyles({
     navLink: {
       display: 'flex',
       flexDirection: 'row',
-      justifyContent: 'space-between',
-      paddingLeft: 20,
+      justifyContent: 'space-evenly',
       color: 'white',
       outline: 'none',
       textDecoration: 'none',
