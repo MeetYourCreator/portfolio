@@ -12,7 +12,7 @@ const useStyles = createUseStyles({
 
   layoutChildren: {
     overflowX: 'hidden',
-    overflowY: 'hidden',
+    overflowY: 'auto',
   },
 
   // '@media (max-width: 415px)': {
