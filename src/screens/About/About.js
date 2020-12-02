@@ -24,6 +24,7 @@ const useStyles = createUseStyles({
     justifyContent: 'flex-end',
     padding: 30,
     fontSize: 15,
+    hyphens: 'auto',
     lineHeight: '1.6',
     textAlign: 'justify',
     textJustify: 'inter-word',

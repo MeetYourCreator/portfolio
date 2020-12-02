@@ -26,8 +26,7 @@ export default function About() {
             }}
             className={classes.aboutBio}>
             A founding member of the Occupy Wall Street movement, I'm a
-            front-end developer with expertise in design and 10 years of New York City agency experience managing teams to execute innovative solutions. As demonstrated in my portfolio project pieces, I'm proficient in React and Javascript, comfortably leveraging my command of back-end technologies such as Ruby-on-Rails, MongoDB,
-            Express.js, and Node.js to deploy full stack applications with full
+            front-end developer with expertise in design and 10 years of New York City agency experience managing teams to execute innovative solutions. As demonstrated in my portfolio project pieces, I'm proficient in React and Javascript, comfortably leveraging my command of back-end technologies such as Ruby-on-Rails, Express.js, and Node.js to deploy full-stack applications with full
             CRUD functionality. My previous roles as an editor, designer,
             activist, and project manager afford me a unique understanding of
             user and participant experience, which I now administer to program
