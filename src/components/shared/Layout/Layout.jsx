@@ -8,7 +8,7 @@ export default function Layout({ children }) {
 
   return (
     <div className={classes.layout}>
-      <Header />
+      {/* <Header /> */}
       <div className={classes.layoutChildren}>{children}</div>
       {/* <Footer /> */}
     </div>

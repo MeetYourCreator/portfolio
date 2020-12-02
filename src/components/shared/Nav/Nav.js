@@ -7,7 +7,7 @@ const useStyles = createUseStyles({
     justifyContent: 'space-around',
     listStyle: 'none',
     fontFamily: 'Bungee Inline',
-    fontSize: 20,
+    fontSize: 10,
     letterSpacing: '2px'
 
   },
@@ -15,7 +15,7 @@ const useStyles = createUseStyles({
   navLink: {
     display: 'flex',
     flexDirection: 'row',
-    padding: 10,
+    padding: 0,
     color: 'white',
     outline: 'none',
     textDecoration: 'none',

@@ -7,7 +7,6 @@ const useStyles = createUseStyles({
     width: '100vw',
     height: '100vh',
     backgroundColor: 'rgb(0,0,0)',
-   
   },
 
   layoutChildren: {
