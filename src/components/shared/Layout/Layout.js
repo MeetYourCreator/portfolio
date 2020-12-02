@@ -8,7 +8,7 @@ const useStyles = createUseStyles({
     height: '100vh',
     backgroundColor: 'rgb(0,0,0)',
     overflowX: 'hidden',
-    overflowY: 'hidden',
+    overflowY: 'auto',
   },
 
   layoutChildren: {

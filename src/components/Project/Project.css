@@ -69,3 +69,52 @@ a {
   color: rgb(255, 162, 190);
   font-weight: 900;
 }
+
+
+/* (max-width: 415px) all samrtphones in portrait */
+ @media (max-width: 415px) {
+  .project-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 12px;
+  margin: 20px auto auto auto;
+  width: 100%;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  font-family: "Bungee Inline", cursive;
+}
+
+.features-heading {
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.project-description {
+  font-size: 12px;
+  font-weight: 900;
+  margin-top: -10px;
+  font-family: "Bungee Hairline", cursive;
+}
+
+.project-description-byline {
+  font-size: 12px;
+  font-weight: 900;
+  margin-top: -25px;
+  margin-bottom: 34px;
+  font-family: "Bungee Hairline", cursive;
+}
+
+.project-video {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  object-fit: cover;
+  margin: -100px 0px auto 0px;
+}
+  }
