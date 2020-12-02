@@ -17,7 +17,7 @@
 
 
 /* (max-width: 415px) all samrtphones in portrait */
- @media (max-width: 415px) {
+ @media (max-width: 505px) {
   .video {
   display: flex;
   flex-direction: column;

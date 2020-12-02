@@ -72,7 +72,7 @@ a {
 
 
 /* (max-width: 415px) all samrtphones in portrait */
- @media (max-width: 415px) {
+ @media (max-width: 505px) {
   .project-container {
   display: flex;
   flex-direction: column;
@@ -99,14 +99,14 @@ a {
 .project-description {
   font-size: 11px;
   font-weight: 900;
-  margin-top: -10px;
+  margin-top: 10px;
   font-family: "Bungee Hairline", cursive;
 }
 
 .project-description-byline {
   font-size: 12px;
   font-weight: 900;
-  margin-top: -25px;
+  margin-top: 10px;
   margin-bottom: 34px;
   font-family: "Bungee Hairline", cursive;
 }
