@@ -33,6 +33,7 @@ export default function Projects() {
             descriptionFeature2="Scope of implementing carousels in React on display with four distinct carousel iterations"
             descriptionFeature3="Proficient knowledge of git and github workflows in collaboration of four member dev team"
             descriptionFeature4="Seemless integratation of MongoDB, Express, React, and Node.js to implement full CRUD functionality"
+            descriptionFeature5="Implementation of CSS Flexbox"
             codeSRC="https://bit.ly/newAlt_gh"
             projectSRC="https://bit.ly/newAlt_site"
           />
