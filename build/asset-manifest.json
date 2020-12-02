@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d3c38727.chunk.css",
+    "main.js": "/static/js/main.d3d6f07b.chunk.js",
+    "main.js.map": "/static/js/main.d3d6f07b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5bd80a1b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5bd80a1b.js.map",
+    "static/js/2.b4f19ccf.chunk.js": "/static/js/2.b4f19ccf.chunk.js",
+    "static/js/2.b4f19ccf.chunk.js.map": "/static/js/2.b4f19ccf.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.531ffa840e2e6f967e29f9dcf821087d.js": "/precache-manifest.531ffa840e2e6f967e29f9dcf821087d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d3c38727.chunk.css.map": "/static/css/main.d3c38727.chunk.css.map",
+    "static/js/2.b4f19ccf.chunk.js.LICENSE.txt": "/static/js/2.b4f19ccf.chunk.js.LICENSE.txt",
+    "static/media/NEW MASTER FOR RENDER.mp4": "/static/media/NEW MASTER FOR RENDER.e0d7b282.mp4",
+    "static/media/myc_rami-zackary-shamir_portfolio_video-bckgrd.mp4": "/static/media/myc_rami-zackary-shamir_portfolio_video-bckgrd.7a6456e6.mp4",
+    "static/media/new-alternatives-vid.mp4": "/static/media/new-alternatives-vid.f1b148e8.mp4",
+    "static/media/press_adbusters_103.png": "/static/media/press_adbusters_103.d665bd35.png",
+    "static/media/press_breitbart.png": "/static/media/press_breitbart.5d2ccf62.png",
+    "static/media/press_huffingtonpost.png": "/static/media/press_huffingtonpost.f3d3e67e.png",
+    "static/media/press_printmag.png": "/static/media/press_printmag.9a023ddc.png",
+    "static/media/press_translating-anarchy.png": "/static/media/press_translating-anarchy.11130ae0.png",
+    "static/media/press_wsj.png": "/static/media/press_wsj.8713d070.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5bd80a1b.js",
+    "static/js/2.b4f19ccf.chunk.js",
+    "static/css/main.d3c38727.chunk.css",
+    "static/js/main.d3d6f07b.chunk.js"
+  ]
+}
