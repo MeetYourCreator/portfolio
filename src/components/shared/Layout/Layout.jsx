@@ -14,7 +14,7 @@ export default function Layout({ children }) {
         animate={{ opacity: 1 }}
         initial={{ opacity: 0 }}
         transition={{
-          delay: 3,
+          delay: 1,
           duration: 6,
         }}
       >
