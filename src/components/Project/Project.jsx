@@ -48,7 +48,7 @@ const Project = ({
               }}
             >
               View Code
-            </motion.a>{" "}
+            </motion.a>
             ||
             <motion.a
               href={projectSRC}
