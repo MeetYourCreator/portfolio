@@ -16,8 +16,8 @@ const useStyles = createUseStyles({
   navLink: {
     display: 'flex',
     flexDirection: 'row',
-    paddingLeft: 0,
-    marginRight: 3,
+    paddingLeft: 20,
+    paddingRight: 30,
     color: 'white',
     outline: 'none',
     textDecoration: 'none',
@@ -39,8 +39,8 @@ const useStyles = createUseStyles({
     navLink: {
       display: 'flex',
       flexDirection: 'row',
-      paddingLeft: 0,
-      paddingRight: 0,
+      paddingLeft: 5,
+      paddingRight: 5,
       color: 'white',
       outline: 'none',
       textDecoration: 'none',
