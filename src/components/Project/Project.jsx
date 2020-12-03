@@ -19,15 +19,7 @@ const Project = ({
   return (
     <>
       <div className="project-container">
-        <motion.div
-          animate={{ opacity: 1 }}
-          initial={{ opacity: 0 }}
-          transition={{
-            delay: 1,
-            duration: 3,
-          }}
-          className="project-info"
-        >
+        <div className="project-info">
           <h1 className="project-title">{title}</h1>
           <p className="project-description">{description}</p>
           <p className="project-description-byline">{descriptionByline}</p>
@@ -40,28 +32,20 @@ const Project = ({
             <li>{descriptionFeature5}</li>
           </ul>
           <div className="external-links">
-            <motion.a
-              href={codeSRC}
-              whileHover={{
-                scale: 1.5,
-                textShadow: "0px 0px 8px rgb(255,162,190)",
-              }}
-            >
-              View Code
-            </motion.a>
+            <a href={codeSRC}>View Code</a>
             ||
-            <motion.a
-              href={projectSRC}
-              whileHover={{
-                scale: 1.5,
-                textShadow: "0px 0px 8px rgb(255,162,190)",
-              }}
-            >
-              View Project
-            </motion.a>
+            <a href={projectSRC}>View Project</a>
           </div>
-        </motion.div>
-        <motion.div className="project-video">
+        </div>
+        <motion.div
+          animate={{ opacity: 1 }}
+          initial={{ opacity: 0 }}
+          transition={{
+            delay: 1,
+            duration: 3,
+          }}
+          className="project-video"
+        >
           <Video src={src} />
         </motion.div>
       </div>

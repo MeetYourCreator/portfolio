@@ -28,10 +28,10 @@ const useStyles = createUseStyles({
     navContainer: {
       display: 'flex',
       flexDirection: 'row',
-      justifyContent: 'space-evenly',
+      justifyContent: 'center',
       listStyle: 'none',
       fontFamily: 'Bungee Inline',
-      fontSize: 10,
+      fontSize: 8,
       letterSpacing: '2px'
 
     },
@@ -39,7 +39,9 @@ const useStyles = createUseStyles({
     navLink: {
       display: 'flex',
       flexDirection: 'row',
-      justifyContent: 'space-evenly',
+      justifyContent: 'center',
+      paddingLeft: 0,
+      paddingRight: 0,
       color: 'white',
       outline: 'none',
       textDecoration: 'none',

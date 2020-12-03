@@ -92,7 +92,7 @@ const useStyles = createUseStyles({
 
     image: {
       display: 'flex',
-      width: '100vw',
+      width: 300,
       paddingBottom: 25,
       paddingLeft: 5,
     },

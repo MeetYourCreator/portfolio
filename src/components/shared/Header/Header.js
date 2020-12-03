@@ -4,7 +4,7 @@ const useStyles = createUseStyles({
   headerContainer: {
     display: 'flex',
     flexDirection: 'row',
-    justifyContent: 'space-evenly'
+    justifyContent: 'center'
 
   },
 
@@ -12,7 +12,7 @@ const useStyles = createUseStyles({
     headerContainer: {
       display: 'flex',
       flexDirection: 'row',
-      justifyContent: 'space-around'
+      justifyContent: 'center'
 
     }
   }

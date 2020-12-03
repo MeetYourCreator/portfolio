@@ -1,10 +1,10 @@
 .project-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   color: #ffffff;
   font-size: 15px;
-  margin: 80px auto auto 20px;
+  margin: 80px auto -80px 100px;
   width: 100%;
 }
 
@@ -40,14 +40,16 @@
   flex-direction: column;
   width: 900px;
   object-fit: cover;
-  margin: 50px 20px auto 39px;
+  z-index: 1;
+  margin: -120px 20px -60px 500px;
 }
 
 .external-links {
   display: flex;
   flex-direction: row;
   outline: none;
-  justify-content: space-evenly;
+  justify-content: center;
+  z-index: 10;
   text-decoration: none;
 }
 
@@ -68,6 +70,8 @@ a {
   text-decoration: none;
   color: rgb(255, 162, 190);
   font-weight: 900;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 
@@ -79,7 +83,7 @@ a {
   justify-content: center;
   color: #ffffff;
   font-size: 12px;
-  margin: 20px auto -120px auto;
+  margin: 40px auto -120px auto;
   width: 100%;
 }
 
@@ -116,7 +120,17 @@ a {
   flex-direction: column;
   width: 100%;
   object-fit: cover;
-  margin: -120px 0px 0px 0px;
+  z-index: 1;
+  margin: -150px 0px 0px 0px;
+}
+
+.external-links {
+  display: flex;
+  flex-direction: row;
+  outline: none;
+  justify-content: center;
+  z-index: 10;
+  text-decoration: none;
 }
 
 ul {
