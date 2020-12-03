@@ -24,7 +24,7 @@ const useStyles = createUseStyles({
 
   },
 
-  '@media (max-width: 415px)': {
+  '@media (max-width: 505px)': {
     navContainer: {
       display: 'flex',
       flexDirection: 'row',
