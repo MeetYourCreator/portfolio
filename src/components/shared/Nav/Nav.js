@@ -17,7 +17,7 @@ const useStyles = createUseStyles({
     display: 'flex',
     flexDirection: 'row',
     paddingLeft: 0,
-    marginRight: 15,
+    marginRight: 3,
     color: 'white',
     outline: 'none',
     textDecoration: 'none',
@@ -28,7 +28,7 @@ const useStyles = createUseStyles({
     navContainer: {
       display: 'flex',
       flexDirection: 'row',
-      justifyContent: 'center',
+      justifyContent: 'flex-start',
       listStyle: 'none',
       fontFamily: 'Bungee Inline',
       fontSize: 7,
