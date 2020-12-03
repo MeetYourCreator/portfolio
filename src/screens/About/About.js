@@ -57,6 +57,7 @@ const useStyles = createUseStyles({
   image: {
     display: 'flex',
     width: 700,
+    height: 'auto',
     paddingBottom: 25,
     paddingLeft: 20,
   },
