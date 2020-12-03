@@ -12,7 +12,7 @@ const useStyles = createUseStyles({
     headerContainer: {
       display: 'flex',
       flexDirection: 'row',
-      justifyContent: 'flex-start'
+      justifyContent: 'center'
 
     }
   }
