@@ -32,9 +32,13 @@ const Project = ({
             <li>{descriptionFeature5}</li>
           </ul>
           <div className="external-links">
-            <a href={codeSRC}>View Code</a>
+            <a href={codeSRC}>
+              View Code
+            </a>
             ||
-            <a href={projectSRC}>View Project</a>
+            <a href={projectSRC}>
+              View Project
+            </a>
           </div>
         </div>
         <motion.div
