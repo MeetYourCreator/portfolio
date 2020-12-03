@@ -37,18 +37,6 @@ export default function Projects() {
             codeSRC="https://bit.ly/newAlt_gh"
             projectSRC="https://bit.ly/newAlt_site"
           />
-          {/* <Project
-            src={NewAlternatives}
-            title="Frankenpol"
-            description="React + Airtable API"
-            descriptionByline=""
-            descriptionFeature1=""
-            descriptionFeature2=""
-            descriptionFeature3=""
-            descriptionFeature4=""
-            codeSRC=""
-            projectSRC=""
-          />*/}
         </div>
       </Layout>
     </>

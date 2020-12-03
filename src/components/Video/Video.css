@@ -8,24 +8,14 @@
   overflow: hidden;
 }
 
-
-
-
-
-
-
-
-
 /* (max-width: 415px) all samrtphones in portrait */
- @media (max-width: 505px) {
+@media (max-width: 505px) {
   .video {
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  width: 100%;
-  max-width: 100%;
-  height: 600px;
-  
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    height: 600px;
   }
-
-  }
+}

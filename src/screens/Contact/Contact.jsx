@@ -15,10 +15,10 @@ const Contact = () => {
           </div>
           <aside className="social">
             <a href="https://www.linkedin.com/in/ramizackaryshamir/">
-              <img className="linkedin" src={LinkedIn} />
+              <img className="linkedin" src={LinkedIn} alt='LinkedIn Logo'/>
             </a>
             <a href="https://github.com/MeetYourCreator">
-              <img className="github" src={GitHub} />
+              <img className="github" src={GitHub} alt='GitHub Logo'/>
             </a>
           </aside>
         </section>

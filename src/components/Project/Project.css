@@ -72,87 +72,85 @@ a {
   text-decoration: none;
   color: rgb(255, 162, 190);
   font-weight: 900;
-  
 }
 
 /* (max-width: 505px) all samrtphones in portrait */
- @media (max-width: 505px) {
+@media (max-width: 505px) {
   .project-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: #ffffff;
-  font-size: 14px;
-  margin: 40px auto -120px auto;
-  width: 100%;
-}
-
-.project-info {
-  display: flex;
-  flex-direction: column;
-  margin-left: 15px;
-  margin-right: 15px;
-  font-family: "Bungee Inline", sans-serif;
-}
-
-.features-heading {
-  font-size: 15px;
-  letter-spacing: 1px;
-}
-
-.project-description {
-  font-size: 14px;
-  font-weight: 900;
-  margin-top: 13px;
-  font-family: "Bungee Hairline", sans-serif;
-}
-
-.project-description-byline {
-  font-size: 14px;
-  font-weight: 900;
-  margin-top: 13px;
-  margin-bottom: 34px;
-  font-family: "Bungee Hairline", sans-serif;
-}
-
-.project-video {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  object-fit: cover;
-  z-index: 1;
-  margin: -150px 0px -0px 0px;
-}
-
-.external-links {
-  display: flex;
-  flex-direction: row;
-  outline: none;
-  justify-content: space-around;
-  z-index: 10;
-  text-decoration: none;
-  font-size: 9px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-ul {
-  display: flex;
-  flex-direction: column;
-  font-family: "Bungee Hairline", sans-serif;
-  font-size: 13px;
-}
-
-li {
-  padding-top: 10px;
-  font-weight: 900;
-}
-
-a {
-  outline: none;
-  text-decoration: none;
-  color: rgb(255, 162, 190);
-  font-weight: 900;
-}
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 14px;
+    margin: 40px auto -120px auto;
+    width: 100%;
   }
+
+  .project-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: "Bungee Inline", sans-serif;
+  }
+
+  .features-heading {
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+
+  .project-description {
+    font-size: 14px;
+    font-weight: 900;
+    margin-top: 13px;
+    font-family: "Bungee Hairline", sans-serif;
+  }
+
+  .project-description-byline {
+    font-size: 14px;
+    font-weight: 900;
+    margin-top: 13px;
+    margin-bottom: 34px;
+    font-family: "Bungee Hairline", sans-serif;
+  }
+
+  .project-video {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    object-fit: cover;
+    z-index: 1;
+    margin: -150px 0px -0px 0px;
+  }
+
+  .external-links {
+    display: flex;
+    flex-direction: row;
+    outline: none;
+    justify-content: space-around;
+    z-index: 10;
+    text-decoration: none;
+    font-size: 9px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    font-family: "Bungee Hairline", sans-serif;
+    font-size: 13px;
+  }
+
+  li {
+    padding-top: 10px;
+    font-weight: 900;
+  }
+
+  a {
+    outline: none;
+    text-decoration: none;
+    color: rgb(255, 162, 190);
+    font-weight: 900;
+  }
+}

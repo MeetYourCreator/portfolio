@@ -1,6 +1,6 @@
 import React from "react"
 import useStyles from "./About.js"
-import { motion } from 'framer-motion'
+import { motion } from "framer-motion"
 import Layout from "../../components/shared/Layout/Layout.jsx"
 import Printmag from "../../Assets/press_printmag.png"
 import HuffingtonPost from "../../Assets/press_huffingtonpost.png"
@@ -18,22 +18,28 @@ export default function About() {
         <div className={classes.aboutContainer}>
           <h1 className={classes.aboutTitle}>Hi, My name is Rami!</h1>
           <motion.div
-          animate={{ opacity: 1 }}
-          initial={{ opacity: 0 }}
-          transition={{
-            delay: 1,
-            duration: 3,
+            animate={{ opacity: 1 }}
+            initial={{ opacity: 0 }}
+            transition={{
+              delay: 1,
+              duration: 3,
             }}
-            className={classes.aboutBio}>
+            className={classes.aboutBio}
+          >
             A founding member of the Occupy Wall Street movement, I'm a
-            front-end developer with expertise in design and 10 years of New York City agency experience managing teams to execute innovative solutions. As demonstrated in my portfolio project pieces, I'm proficient in React and Javascript, comfortably leveraging my command of back-end technologies such as Ruby-on-Rails, Express.js, and Node.js to deploy full-stack applications with full
-            CRUD functionality. My previous roles as an editor, designer,
-            activist, and project manager afford me a unique understanding of
-            user and participant experience, which I now administer to program
-            intuitive, client-oriented applications in my role as a software
-            engineer. In addition to the projects highlighted in my portfolio,
-            my ability to fully meet any set of deliverables is well-documented
-            in a wide-ranging set of online resources, which include successful
+            front-end developer with expertise in design and 10 years of New
+            York City agency experience managing teams to execute innovative
+            solutions. As demonstrated in my portfolio project pieces, I'm
+            proficient in React and Javascript, comfortably leveraging my
+            command of back-end technologies such as Ruby-on-Rails, Express.js,
+            and Node.js to deploy full-stack applications with full CRUD
+            functionality. My previous roles as an editor, designer, activist,
+            and project manager afford me a unique understanding of user and
+            participant experience, which I now administer to program intuitive,
+            client-oriented applications in my role as a software engineer. In
+            addition to the projects highlighted in my portfolio, my ability to
+            fully meet any set of deliverables is well-documented in a
+            wide-ranging set of online resources, which include successful
             fundraising campaigns and press coverage spanning a decade.
           </motion.div>
           <div className={classes.press}>

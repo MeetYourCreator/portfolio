@@ -98,7 +98,7 @@ const useStyles = createUseStyles({
       height: 200,
       paddingBottom: 25,
       marginRight: 15,
-      
+
     },
   }
 
