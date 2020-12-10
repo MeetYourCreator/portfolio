@@ -59,7 +59,7 @@ const useStyles = createUseStyles({
     width: 700,
     height: 'auto',
     paddingBottom: 25,
-    paddingLeft: 20,
+    paddingLeft: 20
   },
 
   '@media (max-width: 505px)': {
