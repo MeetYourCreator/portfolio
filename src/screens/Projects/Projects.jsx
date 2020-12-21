@@ -45,7 +45,7 @@ export default function Projects() {
             descriptionByline="Up-to-the-minute stories from the New York Times"
             descriptionFeature1="No libraries. No modules. No frameworks. 100% vanilla JavaScript/HTML/CSS NYT news widget."
             descriptionFeature2="Utilizes New York Times 'Times Wire API' to retrieve up-to-the-minute stream of nytimes articles."
-            descriptionFeature3=""
+            descriptionFeature3="Implementation of CSS Grid and CSS Flexbox"
             descriptionFeature4=""
             descriptionFeature5=""
             codeSRC="http://bit.ly/gh-nytwidget"
