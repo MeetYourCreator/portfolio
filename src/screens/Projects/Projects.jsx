@@ -43,13 +43,13 @@ export default function Projects() {
             title="NYT News Widget"
             description="Vanilla javascript news widget using the NYT API"
             descriptionByline="Up-to-the-minute stories from the New York Times"
-            descriptionFeature1="No libraries. No modules."
-            descriptionFeature2=""
+            descriptionFeature1="No libraries. No modules. No frameworks. 100% vanilla JavaScript/HTML/CSS NYT news widget."
+            descriptionFeature2="Utilizes New York Times 'Times Wire API' to retrieve up-to-the-minute stream of nytimes articles."
             descriptionFeature3=""
             descriptionFeature4=""
             descriptionFeature5=""
-            codeSRC=""
-            projectSRC=""
+            codeSRC="http://bit.ly/gh-nytwidget"
+            projectSRC="http://bit.ly/nytimes-widget"
           />
         </div>
       </Layout>
