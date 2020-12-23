@@ -11,8 +11,6 @@ const Project = ({
   descriptionFeature1,
   descriptionFeature2,
   descriptionFeature3,
-  descriptionFeature4,
-  descriptionFeature5,
   codeSRC,
   projectSRC,
 }) => {
@@ -28,8 +26,6 @@ const Project = ({
             <li>{descriptionFeature1}</li>
             <li>{descriptionFeature2}</li>
             <li>{descriptionFeature3}</li>
-            <li>{descriptionFeature4}</li>
-            <li>{descriptionFeature5}</li>
           </ul>
           <div className="external-links">
             <a href={codeSRC}>View Code</a>
