@@ -1,5 +1,10 @@
 {
   "name": "myc_portfolio",
+  "author": {
+    "name": "Rami Zackary Shamir",
+    "email": "ramizackshamir@icloud.com",
+    "url": "https://meetyourcreator.com"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
