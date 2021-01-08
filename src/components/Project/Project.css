@@ -12,7 +12,7 @@
   display: flex;
   flex-direction: column;
   margin-left: 40px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .features-heading {
@@ -24,7 +24,7 @@
   font-size: 30px;
   font-weight: 900;
   margin-top: -10px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .project-description-byline {
@@ -32,7 +32,7 @@
   font-weight: 900;
   margin-top: -25px;
   margin-bottom: 34px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .project-video {
@@ -58,7 +58,7 @@
 ul {
   display: flex;
   flex-direction: column;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
 }
 
@@ -91,7 +91,7 @@ a {
     flex-direction: column;
     margin-left: 15px;
     margin-right: 15px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: "Montserrat", sans-serif;
   }
 
   .features-heading {
@@ -103,7 +103,7 @@ a {
     font-size: 14px;
     font-weight: 900;
     margin-top: 13px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: "Montserrat", sans-serif;
   }
 
   .project-description-byline {
@@ -111,7 +111,7 @@ a {
     font-weight: 900;
     margin-top: 13px;
     margin-bottom: 34px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: "Montserrat", sans-serif;
   }
 
   .project-video {
@@ -138,7 +138,7 @@ a {
   ul {
     display: flex;
     flex-direction: column;
-    font-family: 'DM Sans', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 13px;
   }
 
