@@ -9,7 +9,7 @@ const useStyles = createUseStyles({
     fontFamily: 'Bebas Neue',
     fontSize: 12,
     marginBottom: 10,
-    letterSpacing: '2px'
+    letterSpacing: '4px'
 
   },
 
@@ -32,7 +32,7 @@ const useStyles = createUseStyles({
       listStyle: 'none',
       fontFamily: 'Bebas Neue',
       fontSize: 7,
-      letterSpacing: '2px'
+      letterSpacing: '4px'
 
     },
 

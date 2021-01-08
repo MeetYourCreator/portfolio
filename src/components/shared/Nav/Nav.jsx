@@ -10,8 +10,8 @@ export default function Nav() {
     <ul className={classes.navContainer}>
       <motion.li
         whileHover={{
-          scale: 1.2,
-          textShadow: "0px 0px 8px rgb(73,162,190)",
+          scale: 3,
+          textShadow: "0px 0px 8px rgb(255, 162, 190)",
           type: "tween",
         }}
       >
@@ -21,8 +21,8 @@ export default function Nav() {
       </motion.li>
       <motion.li
         whileHover={{
-          scale: 1.2,
-          textShadow: "0px 0px 8px rgb(73,162,190",
+          scale: 3,
+          textShadow: "0px 0px 8px rgb(255, 162, 190)",
         }}
       >
         <Link to="/projects" className={classes.navLink}>
@@ -31,8 +31,8 @@ export default function Nav() {
       </motion.li>
       <motion.li
         whileHover={{
-          scale: 1.2,
-          textShadow: "0px 0px 8px rgb(73,162,190",
+          scale: 3,
+          textShadow: "0px 0px 8px rgb(255, 162, 190)",
         }}
       >
         <Link to="/about" className={classes.navLink}>
@@ -41,8 +41,8 @@ export default function Nav() {
       </motion.li>
       <motion.li
         whileHover={{
-          scale: 1.2,
-          textShadow: "0px 0px 8px rgb(73,162,190",
+          scale: 3,
+          textShadow: "0px 0px 8px rgb(255, 162, 190)",
         }}
       >
         <Link to="/contact" className={classes.navLink}>
