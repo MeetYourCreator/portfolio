@@ -29,8 +29,7 @@ export default function Projects() {
             descriptionByline="Revamp of website for NYC non-profit"
             descriptionFeature1="Worked with a design team to translate wire-frames into a scalable high fidelity, front-end architecture."
             descriptionFeature2="Optimized the delivery of code assets to browsers across a wide spectrum of devices."
-            descriptionFeature3="Seemless integratation of MongoDB, Express, React, and Node.js to implement full CRUD functionality."
-            codeSRC="https://bit.ly/newAlt_gh"
+Auster            codeSRC="https://bit.ly/newAlt_gh"
             projectSRC="https://bit.ly/newAlt_site"
           />
           <Project

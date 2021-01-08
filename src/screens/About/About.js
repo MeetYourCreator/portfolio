@@ -6,7 +6,7 @@ const useStyles = createUseStyles({
     flexDirection: 'column',
     justifyContent: 'center',
     backgroundColor: 'white',
-    fontFamily: 'Bungee Hairline',
+    fontFamily: 'Montserrat',
     fontSize: 8
   },
 
@@ -14,7 +14,7 @@ const useStyles = createUseStyles({
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'center',
-    fontWeight: 900,
+    fontWeight: 800,
     paddingRight: 15
   },
 
@@ -28,8 +28,8 @@ const useStyles = createUseStyles({
     lineHeight: '1.6',
     textAlign: 'justify',
     textJustify: 'inter-word',
-    fontFamily: 'Bungee Hairline',
-    fontWeight: 900,
+    fontFamily: 'Montserrat',
+    fontWeight: 600,
     borderTop: '5px solid black'
   },
 
@@ -68,7 +68,7 @@ const useStyles = createUseStyles({
       flexDirection: 'column',
       justifyContent: 'center',
       backgroundColor: 'white',
-      fontFamily: 'Bungee Hairline',
+      fontFamily: 'Montserrat',
       fontSize: 8,
     },
 
@@ -81,8 +81,8 @@ const useStyles = createUseStyles({
       lineHeight: '1.2',
       textAlign: 'justify',
       textJustify: 'inter-word',
-      fontFamily: 'Bungee Hairline',
-      fontWeight: 900,
+      fontFamily: 'Montserrat',
+      fontWeight: 600,
       borderTop: '5px solid black'
     },
 
