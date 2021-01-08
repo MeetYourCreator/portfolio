@@ -14,8 +14,8 @@ export default function Projects() {
           <Project
             src={TwelveStepAlphabet}
             title="12 Step Alphabet"
-            description="Fullstack React + Rails"
-            descriptionByline="12 Step Recovery Application"
+            description="Fullstack React on Rails"
+            descriptionByline="Twelve step recovery application"
             descriptionFeature1="Dataset of 100,000+ entries to create a aomprehensive meeting directory for Alcoholics Anonymous, Crystal Meth Anonymous, Narcotics Anonymous, and ALANON."
             descriptionFeature2="Mapbox APIs to render full color maps for each meeting entry, Mapbox GeoLocation API to retrieve user location, and  Mapbox Directions API to provide full navigation functionality."
             descriptionFeature3="Full CRUD functionality for users to post, edit, and delete reviews of their favorite (and not-so-favorite) 12 step meetings."
