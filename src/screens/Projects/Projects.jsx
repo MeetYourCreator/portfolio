@@ -25,7 +25,7 @@ export default function Projects() {
           <Project
             src={NewAlternatives}
             title="New Alternatives"
-            description="Fullstack MERN"
+            description="MERN Stack Front to Back"
             descriptionByline="Revamp of website for NYC non-profit"
             descriptionFeature1="Worked with a design team to translate wire-frames into a scalable high fidelity, front-end architecture."
             descriptionFeature2="Optimized the delivery of code assets to browsers across a wide spectrum of devices."
