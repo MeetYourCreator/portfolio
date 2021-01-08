@@ -6,7 +6,7 @@ const useStyles = createUseStyles({
     flexDirection: 'row',
     justifyContent: 'center',
     listStyle: 'none',
-    fontFamily: 'Bungee Inline',
+    fontFamily: 'Bebas Neue',
     fontSize: 12,
     marginBottom: 10,
     letterSpacing: '2px'
@@ -30,7 +30,7 @@ const useStyles = createUseStyles({
       flexDirection: 'row',
       justifyContent: 'flex-start',
       listStyle: 'none',
-      fontFamily: 'Bungee Inline',
+      fontFamily: 'Bebas Neue',
       fontSize: 7,
       letterSpacing: '2px'
 
