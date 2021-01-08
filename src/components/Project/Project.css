@@ -13,6 +13,7 @@
   flex-direction: column;
   margin-left: 40px;
   font-family: "Montserrat", sans-serif;
+  font-weight: 200;
 }
 
 .features-heading {
@@ -22,14 +23,14 @@
 
 .project-description {
   font-size: 30px;
-  font-weight: 900;
+  font-weight: 300;
   margin-top: -10px;
   font-family: "Montserrat", sans-serif;
 }
 
 .project-description-byline {
   font-size: 20px;
-  font-weight: 900;
+  font-weight: 500;
   margin-top: -25px;
   margin-bottom: 34px;
   font-family: "Montserrat", sans-serif;
@@ -60,18 +61,19 @@ ul {
   flex-direction: column;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
+  font-weight: 500;
 }
 
 li {
   padding-top: 10px;
-  font-weight: 900;
+  font-weight: 500;
 }
 
 a {
   outline: none;
   text-decoration: none;
   color: rgb(255, 162, 190);
-  font-weight: 900;
+  font-weight: 500;
 }
 
 /* (max-width: 505px) all samrtphones in portrait */
@@ -108,7 +110,7 @@ a {
 
   .project-description-byline {
     font-size: 14px;
-    font-weight: 900;
+    font-weight: 500;
     margin-top: 13px;
     margin-bottom: 34px;
     font-family: "Montserrat", sans-serif;
@@ -144,13 +146,13 @@ a {
 
   li {
     padding-top: 10px;
-    font-weight: 900;
+    font-weight: 500;
   }
 
   a {
     outline: none;
     text-decoration: none;
     color: rgb(255, 162, 190);
-    font-weight: 900;
+    font-weight: 500;
   }
 }
