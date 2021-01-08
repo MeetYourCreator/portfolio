@@ -16,9 +16,9 @@ export default function Projects() {
             title="12 Step Alphabet"
             description="Fullstack React + Rails"
             descriptionByline="12 Step Recovery Application"
-            descriptionFeature1="Dataset of 100,000+ entries to create a aomprehensive meeting directory for Alcoholics Anonymous, Crystal Meth Anonymous, Narcotics Anonymous, and ALANON"
-            descriptionFeature2="Mapbox APIs to render full color maps for each meeting entry, Mapbox GeoLocation API to retrieve user location, and  Mapbox Directions API to provide full navigation functionality"
-            descriptionFeature3="Full CRUD functionality for users to post, edit, and delete reviews of their favorite (and not-so-favorite) 12 step meetings"
+            descriptionFeature1="Dataset of 100,000+ entries to create a aomprehensive meeting directory for Alcoholics Anonymous, Crystal Meth Anonymous, Narcotics Anonymous, and ALANON."
+            descriptionFeature2="Mapbox APIs to render full color maps for each meeting entry, Mapbox GeoLocation API to retrieve user location, and  Mapbox Directions API to provide full navigation functionality."
+            descriptionFeature3="Full CRUD functionality for users to post, edit, and delete reviews of their favorite (and not-so-favorite) 12 step meetings."
             codeSRC="https://bit.ly/12step_gh"
             projectSRC="https://bit.ly/12step_app"
           />
@@ -27,20 +27,20 @@ export default function Projects() {
             title="New Alternatives"
             description="Fullstack MERN"
             descriptionByline="Revamp of website for NYC non-profit"
-            descriptionFeature1="Worked with a design team to translate wire-frames into a scalable high fidelity, front-end architecture"
+            descriptionFeature1="Worked with a design team to translate wire-frames into a scalable high fidelity, front-end architecture."
             descriptionFeature2="Optimized the delivery of code assets to browsers across a wide spectrum of devices."
-            descriptionFeature3="Seemless integratation of MongoDB, Express, React, and Node.js to implement full CRUD functionality"
+            descriptionFeature3="Seemless integratation of MongoDB, Express, React, and Node.js to implement full CRUD functionality."
             codeSRC="https://bit.ly/newAlt_gh"
             projectSRC="https://bit.ly/newAlt_site"
           />
           <Project
             src={NYTimes}
             title="NYT News Widget"
-            description="Vanilla javascript news widget using the NYT API"
+            description="Client-side Vanilla Javascript News Widget"
             descriptionByline="Up-to-the-minute stories from the New York Times"
             descriptionFeature1="No libraries. No modules. No frameworks. 100% vanilla JavaScript/HTML/CSS NYT news widget."
             descriptionFeature2="Utilizes New York Times 'Times Wire API' to retrieve up-to-the-minute stream of nytimes articles."
-            descriptionFeature3="Implementation of CSS Grid and CSS Flexbox"
+            descriptionFeature3="Implementation of CSS Grid and CSS Flexbox."
             codeSRC="http://bit.ly/gh-nytwidget"
             projectSRC="http://bit.ly/nytimes-widget"
           />
