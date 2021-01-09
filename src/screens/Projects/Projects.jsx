@@ -16,9 +16,9 @@ export default function Projects() {
             title="12 Step Alphabet"
             description="Fullstack React on Rails"
             descriptionByline="12 Step Recovery Application"
-            descriptionFeature1="Dataset of 100,000+ entries to create a aomprehensive meeting directory for Alcoholics Anonymous, Crystal Meth Anonymous, Narcotics Anonymous, and ALANON."
-            descriptionFeature2="Mapbox APIs to render full color maps for each meeting entry, Mapbox GeoLocation API to retrieve user location, and  Mapbox Directions API to provide full navigation functionality."
-            descriptionFeature3="Full CRUD functionality for users to post, edit, and delete reviews of their favorite (and not-so-favorite) 12 step meetings."
+            descriptionFeature1="Dataset of 100,000+ entries create a comprehensive meeting directory for Alcoholics Anonymous, Crystal Meth Anonymous, Narcotics Anonymous, and ALANON."
+            descriptionFeature2="Mapbox APIs render full color maps for each meeting entry, Mapbox GeoLocation API retrieve user location, and  Mapbox Directions API provide full navigation functionality."
+            descriptionFeature3="Full CRUD functionality allow users to post, edit, and delete reviews of their favorite (and not-so-favorite) 12 step meetings."
             codeSRC="https://bit.ly/12step_gh"
             projectSRC="https://bit.ly/12step_app"
           />
