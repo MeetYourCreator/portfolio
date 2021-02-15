@@ -85,7 +85,7 @@ a {
   letter-spacing: 1px;
 }
 
-/* (max-width: 505px) all samrtphones in portrait */
+/* (max-width: 505px) all smartphones in portrait */
 @media (max-width: 505px) {
   .project-container {
     display: flex;
@@ -93,7 +93,7 @@ a {
     justify-content: center;
     color: #ffffff;
     font-size: 14px;
-    margin: 40px auto -120px auto;
+    margin: 10px auto -120px auto;
     width: 100%;
   }
 
@@ -105,24 +105,31 @@ a {
     font-family: "Montserrat", sans-serif;
   }
 
+  .project-title {
+  font-size: 17px;
+  letter-spacing: 1px;
+  font-weight: 900;
+  font-variant: small-caps;
+  }
+
+.project-description {
+    font-size: 15px;
+    
+    margin-top: -5px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+.project-description-byline {
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: -5px;
+    margin-bottom: 14px;
+    font-family: "Montserrat", sans-serif;
+  }
+
   .features-heading {
     font-size: 15px;
     letter-spacing: 1px;
-  }
-
-  .project-description {
-    font-size: 14px;
-    font-weight: 900;
-    margin-top: -10px;
-    font-family: "Montserrat", sans-serif;
-  }
-
-  .project-description-byline {
-    font-size: 14px;
-    font-weight: 500;
-    margin-top: -5px;
-    margin-bottom: 34px;
-    font-family: "Montserrat", sans-serif;
   }
 
   .project-video {
@@ -131,7 +138,7 @@ a {
     width: 100%;
     object-fit: cover;
     z-index: 1;
-    margin: -170px 0px -80px 0px;
+    margin: -190px auto -70px auto;
   }
 
   .external-links {
