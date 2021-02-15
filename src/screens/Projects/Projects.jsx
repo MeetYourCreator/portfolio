@@ -27,10 +27,10 @@ export default function Projects() {
             src={WorldClock}
             title="React World Clock Tapestry"
             description="World Clock Widget"
-            descriptionByline="Displays the current time for more than 200 countries in a sleek, minimalist-inspired throwback to the digital alarm clock."
+            descriptionByline="Current time for over 200 countries"
             descriptionFeature1="Handle and manipulate API data to render custom clean, client-friendly UI."
-            descriptionFeature2="Consistent, Dynamic Styling of React Compionents using the styled-components library."
-            descriptionFeature3="Set local time by usign Date object methods to modify Javascript Date object."
+            descriptionFeature2="Consistent, dynamic styling of React Components using the styled-components library."
+            descriptionFeature3="Set local time for client and display the current time for more than 200 countries in a sleek, minimalist-inspired throwback to the digital alarm clock."
             codeSRC="https://github.com/MeetYourCreator/react-world-clock-tapestry"
             projectSRC="https://react-world-clock-tapestry.netlify.app/"
           />
