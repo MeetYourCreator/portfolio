@@ -8,7 +8,7 @@
   overflow: hidden;
 }
 
-/* (max-width: 415px) all samrtphones in portrait */
+/* (max-width: 415px) all smartphones in portrait */
 @media (max-width: 505px) {
   .video {
     display: flex;
