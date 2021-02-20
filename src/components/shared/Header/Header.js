@@ -11,7 +11,9 @@ const useStyles = createUseStyles({
   '@media (max-width: 505px)': {
     headerContainer: {
       display: 'flex',
-      flexDirection: 'row'
+      flexDirection: 'row',
+      marginTop: 15,
+      marginRight: 15
     }
   }
 })
