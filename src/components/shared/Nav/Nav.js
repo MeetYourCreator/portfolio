@@ -39,8 +39,8 @@ const useStyles = createUseStyles({
     navLink: {
       display: 'flex',
       flexDirection: 'row',
-      paddingLeft: 10,
-      paddingRight: 10,
+      paddingLeft: 15,
+      paddingRight: 15,
       color: 'white',
       outline: 'none',
       textDecoration: 'none',
