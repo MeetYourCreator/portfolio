@@ -14,7 +14,8 @@ const useStyles = createUseStyles({
       display: 'flex',
       flexDirection: 'row',
       marginTop: 15,
-      marginRight: 15
+      marginRight: 15,
+      marginBottom: -20
     }
   }
 })
