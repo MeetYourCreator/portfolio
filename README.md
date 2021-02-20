@@ -8,6 +8,7 @@
 | [react-router](https://www.npmjs.com/package/react-router) |
 | [react-jss](https://www.npmjs.com/package/react-jss) |
 | [react prop-types](https://www.npmjs.com/package/peerjs) |
+| [styled-components](https://www.npmjs.com/package/styled-components) |
 | [react spinners](https://www.npmjs.com/package/react-spinners) |
 | [framer-motion](https://www.npmjs.com/package/framer-motion) |
 | [mapbox gl](https://www.npmjs.com/package/react-spinners) |
