@@ -26,24 +26,14 @@ export default function About() {
             }}
             className={classes.aboutBio}
           >
-            A founding member of the Occupy Wall Street movement, I'm a
-            front-end developer with expertise in design and 10 years of New
-            York City agency experience managing teams to execute innovative
-            solutions. As demonstrated in my portfolio project pieces, I'm
-            proficient in React and Javascript, comfortably leveraging my
-            command of back-end technologies such as Ruby-on-Rails, Express.js,
-            and Node.js to deploy full-stack applications with full CRUD
-            functionality. My previous roles as an editor, designer, activist,
-            and project manager afford me a unique understanding of user and
-            participant experience, which I now administer to program intuitive,
-            client-oriented applications in my role as a software engineer. In
-            addition to the projects highlighted in my portfolio, my ability to
-            fully meet any set of deliverables is well-documented in a
-            wide-ranging set of online resources, which include successful
-            fundraising campaigns and press coverage spanning a decade.
+            A graduate of General Assembly’s Software Engineering Immersive, I’m
+            a full stack developer with more than six years' experience as a
+            Senior IT Support Engineer in NYC. As my portfolio pieces
+            illustrate, I have a proficient understanding of JavaScript, SQL,
+            HTML5, CSS, and React; experience with working with RESTful APIs;
+            and a commanding knowledge of back-end technologies such as Ruby-on-Rails, NodeJS, and postgreSQL database architecture, which I can comfortably leverage to develop user-oriented, full- stack applications. In addition to the projects highlighted in my portfolio, my ability to fully meet any set of deliverables is well-documented in a wide-ranging set of online resources, which include successful fundraising campaigns and press coverage spanning a decade.
           </motion.div>
           <div className={classes.press}>
-            <h2 className={classes.aboutTitleSection}>Press</h2>
             <div className={classes.pressBox}>
               <a href="https://www.printmag.com/post/the-spirit-of-barney-rosset-lives-on-the-train-to-pokipse">
                 <img
