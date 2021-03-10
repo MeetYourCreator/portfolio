@@ -45,6 +45,18 @@ export default function Projects() {
             projectSRC="http://bit.ly/nytimes-widget"
           />
         </div>
+         <Project
+            src={NYTimes}
+            title="React World Clock Tapestry"
+            description="World Clock Widget"
+            descriptionByline="Displays the current time for more than 200 countries in a sleek, minimalist-inspired throwback to the digital alarm clock."
+            descriptionFeature1=""
+            descriptionFeature2=""
+            descriptionFeature3=""
+            codeSRC="https://github.com/MeetYourCreator/react-world-clock-tapestry"
+            projectSRC="https://react-world-clock-tapestry.netlify.app/"
+          />
+        </div>
       </Layout>
     </>
   )
