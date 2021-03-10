@@ -2,6 +2,7 @@ import React from "react"
 import "./Projects.css"
 import Layout from "../../components/shared/Layout/Layout.jsx"
 import Project from "../../components/Project/Project.jsx"
+import WorldClock from "../../Assets/react-world-clock-tapestry_projects.mov"
 import TwelveStepAlphabet from "../../Assets/NEW MASTER FOR RENDER.mp4"
 import NewAlternatives from "../../Assets/new-alternatives-vid.mp4"
 import NYTimes from "../../Assets/myc_nytimes-widget.mov"
@@ -23,15 +24,15 @@ export default function Projects() {
             projectSRC="https://bit.ly/12step_app"
           />
           <Project
-            src={NewAlternatives}
-            title="New Alternatives"
-            description="MERN Stack Front to Back"
-            descriptionByline="Revamp of website for NYC non-profit"
-            descriptionFeature1="Worked with a design team to translate wire-frames into a scalable high fidelity, front-end architecture."
-            descriptionFeature2="Optimized the delivery of code assets to browsers across a wide spectrum of devices."
-            descriptionFeature3="Seamless integration of MongoDB, Express, React, and Node.js to implement full CRUD functionality."
-            codeSRC="https://bit.ly/newAlt_gh"
-            projectSRC="https://bit.ly/newAlt_site"
+            src={WorldClock}
+            title="React World Clock Tapestry"
+            description="World Clock Widget"
+            descriptionByline="Current time for over 200 countries"
+            descriptionFeature1="Handle and manipulate API data to render custom clean, client-friendly UI."
+            descriptionFeature2="Consistent, dynamic styling of React Components using the styled-components library."
+            descriptionFeature3="Set local time for client and display the current time for more than 200 countries in a sleek, minimalist-inspired throwback to the digital alarm clock."
+            codeSRC="https://github.com/MeetYourCreator/react-world-clock-tapestry"
+            projectSRC="https://react-world-clock-tapestry.netlify.app/"
           />
           <Project
             src={NYTimes}
@@ -43,6 +44,17 @@ export default function Projects() {
             descriptionFeature3="Implementation of CSS Grid and CSS Flexbox."
             codeSRC="http://bit.ly/gh-nytwidget"
             projectSRC="http://bit.ly/nytimes-widget"
+          />
+          <Project
+            src={NewAlternatives}
+            title="New Alternatives"
+            description="MERN Stack Front to Back"
+            descriptionByline="Revamp of website for NYC non-profit"
+            descriptionFeature1="Worked with a design team to translate wire-frames into a scalable high fidelity, front-end architecture."
+            descriptionFeature2="Optimized the delivery of code assets to browsers across a wide spectrum of devices."
+            descriptionFeature3="Seamless integration of MongoDB, Express, React, and Node.js to implement full CRUD functionality."
+            codeSRC="https://bit.ly/newAlt_gh"
+            projectSRC="https://bit.ly/newAlt_site"
           />
         </div>
          <Project

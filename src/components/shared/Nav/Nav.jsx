@@ -10,7 +10,7 @@ export default function Nav() {
     <ul className={classes.navContainer}>
       <motion.li
         whileHover={{
-          scale: 1.5,
+          scale: 2,
           textShadow: "0px 0px 8px rgb(255, 162, 190)",
           type: "tween",
         }}
@@ -21,7 +21,7 @@ export default function Nav() {
       </motion.li>
       <motion.li
         whileHover={{
-          scale: 1.5,
+          scale: 2,
           textShadow: "0px 0px 8px rgb(255, 162, 190)",
         }}
       >
@@ -31,7 +31,7 @@ export default function Nav() {
       </motion.li>
       <motion.li
         whileHover={{
-          scale: 1.5,
+          scale: 2,
           textShadow: "0px 0px 8px rgb(255, 162, 190)",
         }}
       >
@@ -41,7 +41,7 @@ export default function Nav() {
       </motion.li>
       <motion.li
         whileHover={{
-          scale: 1.5,
+          scale: 2,
           textShadow: "0px 0px 8px rgb(255, 162, 190)",
         }}
       >

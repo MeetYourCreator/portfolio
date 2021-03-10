@@ -4,7 +4,6 @@
   justify-content: center;
   color: #ffffff;
   font-size: 15px;
-  margin: 80px auto -80px 100px;
   width: 100%;
 }
 
@@ -17,11 +16,15 @@
   letter-spacing: 1px;
 }
 
+.project-title {
+font-variant: small-caps;
+}
+
 .project-description {
   font-size: 30px;
   font-weight: 300;
   color: rgb(255, 162, 190);
-  margin-top: -10px;
+  margin-top: -20px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -45,7 +48,7 @@
   width: 900px;
   object-fit: cover;
   z-index: 1;
-  margin: -120px 20px -60px 500px;
+  margin: -120px auto -120px auto;
 }
 
 .external-links {
@@ -82,7 +85,7 @@ a {
   letter-spacing: 1px;
 }
 
-/* (max-width: 505px) all samrtphones in portrait */
+/* (max-width: 505px) all smartphones in portrait */
 @media (max-width: 505px) {
   .project-container {
     display: flex;
@@ -90,7 +93,7 @@ a {
     justify-content: center;
     color: #ffffff;
     font-size: 14px;
-    margin: 40px auto -120px auto;
+    margin: 10px auto -120px auto;
     width: 100%;
   }
 
@@ -102,24 +105,31 @@ a {
     font-family: "Montserrat", sans-serif;
   }
 
+  .project-title {
+  font-size: 17px;
+  letter-spacing: 1px;
+  font-weight: 900;
+  font-variant: small-caps;
+  }
+
+.project-description {
+    font-size: 15px;
+    
+    margin-top: -5px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+.project-description-byline {
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: -5px;
+    margin-bottom: 14px;
+    font-family: "Montserrat", sans-serif;
+  }
+
   .features-heading {
     font-size: 15px;
     letter-spacing: 1px;
-  }
-
-  .project-description {
-    font-size: 14px;
-    font-weight: 900;
-    margin-top: 13px;
-    font-family: "Montserrat", sans-serif;
-  }
-
-  .project-description-byline {
-    font-size: 14px;
-    font-weight: 500;
-    margin-top: 13px;
-    margin-bottom: 34px;
-    font-family: "Montserrat", sans-serif;
   }
 
   .project-video {
@@ -128,7 +138,7 @@ a {
     width: 100%;
     object-fit: cover;
     z-index: 1;
-    margin: -150px 0px -0px 0px;
+    margin: -170px auto -70px auto;
   }
 
   .external-links {
@@ -138,7 +148,7 @@ a {
     justify-content: space-around;
     z-index: 10;
     text-decoration: none;
-    font-size: 9px;
+    font-size: 12px;
     margin-left: 10px;
     margin-right: 10px;
   }

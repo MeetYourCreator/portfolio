@@ -3,26 +3,28 @@
 
 [![MYC](https://raw.githubusercontent.com/MeetYourCreator/myc-portfolio/main/public/meet-your-creator_thumbnail.jpg)](https://www.meetyourcreator.com/)
 # NPM Toolkit
-
-[react-router](https://www.npmjs.com/package/react-router)
-[react-jss](https://www.npmjs.com/package/react-jss)
-[react prop-types](https://www.npmjs.com/package/peerjs)
-[react spinners](https://www.npmjs.com/package/react-spinners)
-[framer-motion](https://www.npmjs.com/package/framer-motion)
-[mapbox gl](https://www.npmjs.com/package/react-spinners)
-[axios](https://www.npmjs.com/package/axios)
-[nodeJS](https://www.npmjs.com/package/node)
-[expressJS](https://www.npmjs.com/package/express)
-[nodemon](https://www.npmjs.com/package/nodemon)
-[mongoose](https://www.npmjs.com/package/mongoose)
-[morgan](https://www.npmjs.com/package/morgan)
-[cors](https://www.npmjs.com/package/cors)
-[body parser](https://www.npmjs.com/package/body-parser)
-[socket.io](https://www.npmjs.com/package/socket.io)
-[peerJS](https://www.npmjs.com/package/peerjs)
-[uuid](https://www.npmjs.com/package/uuid)
-[ejs](https://www.npmjs.com/package/ejs)
-[chalk](https://www.npmjs.com/package/chalk)
+||
+| :-------:|
+| [react-router](https://www.npmjs.com/package/react-router) |
+| [react-jss](https://www.npmjs.com/package/react-jss) |
+| [react prop-types](https://www.npmjs.com/package/peerjs) |
+| [styled-components](https://www.npmjs.com/package/styled-components) |
+| [react spinners](https://www.npmjs.com/package/react-spinners) |
+| [framer-motion](https://www.npmjs.com/package/framer-motion) |
+| [mapbox gl](https://www.npmjs.com/package/react-spinners) |
+| [axios](https://www.npmjs.com/package/axios) |
+| [nodeJS](https://www.npmjs.com/package/node) |
+| [expressJS](https://www.npmjs.com/package/express) |
+| [nodemon](https://www.npmjs.com/package/nodemon) |
+| [mongoose](https://www.npmjs.com/package/mongoose) |
+| [morgan](https://www.npmjs.com/package/morgan) |
+| [cors](https://www.npmjs.com/package/cors) |
+| [body parser](https://www.npmjs.com/package/body-parser) |
+| [socket.io](https://www.npmjs.com/package/socket.io) |
+| [peerJS](https://www.npmjs.com/package/peerjs) |
+| [uuid](https://www.npmjs.com/package/uuid) |
+| [ejs](https://www.npmjs.com/package/ejs) |
+| [chalk](https://www.npmjs.com/package/chalk) |
 
 ## Languages and Tools
 

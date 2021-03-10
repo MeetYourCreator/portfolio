@@ -1,6 +1,7 @@
 .projects-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 95%;
+  grid-template-rows: auto;
   background-color: black;
 }
