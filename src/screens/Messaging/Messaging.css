@@ -1,0 +1,9 @@
+.mssg-container {
+  display: grid;
+  grid-template-columns: 1;
+}
+
+.react-resizable-handle {
+  color: yellow;
+  width: 90px;
+}
