@@ -1,22 +1,21 @@
-import React from "react"
-import useStyles from "./About.js"
-import { motion } from "framer-motion"
-import Layout from "../../components/shared/Layout/Layout.jsx"
-import Printmag from "../../Assets/press_printmag.png"
-import HuffingtonPost from "../../Assets/press_huffingtonpost.png"
-import Adbusters103 from "../../Assets/press_adbusters_103.png"
-import Breitbart from "../../Assets/press_breitbart.png"
-import WSJ from "../../Assets/press_wsj.png"
-import TranslatingAnarchy from "../../Assets/press_translating-anarchy.png"
+import React from "react";
+import useStyles from "./About.js";
+import { motion } from "framer-motion";
+import Layout from "../../components/shared/Layout/Layout.jsx";
+import Printmag from "../../Assets/press_printmag.png";
+import HuffingtonPost from "../../Assets/press_huffingtonpost.png";
+import Adbusters103 from "../../Assets/press_adbusters_103.png";
+import Breitbart from "../../Assets/press_breitbart.png";
+import WSJ from "../../Assets/press_wsj.png";
+import TranslatingAnarchy from "../../Assets/press_translating-anarchy.png";
 
 export default function About() {
-  const classes = useStyles()
+  const classes = useStyles();
 
   return (
     <>
       <Layout>
         <div className={classes.aboutContainer}>
-          <h1 className={classes.aboutTitle}>Hi, My name is Rami!</h1>
           <motion.div
             animate={{ opacity: 1 }}
             initial={{ opacity: 0 }}
@@ -24,14 +23,22 @@ export default function About() {
               delay: 1,
               duration: 3,
             }}
+            className={classes.aboutTitle}
+          >
+            Hi! I’m Rami Zackary Shamir, a full-time front-end developer,
+            specializing in ReactJS and React Native.
+          </motion.div>
+          <motion.div
+            animate={{ opacity: 1 }}
+            initial={{ opacity: 0 }}
+            transition={{
+              delay: 4,
+              duration: 3,
+            }}
             className={classes.aboutBio}
           >
-            A graduate of General Assembly’s Software Engineering Immersive, I’m
-            a full stack developer with more than six years' experience as a
-            Senior IT Support Engineer in NYC. As my portfolio pieces
-            illustrate, I have a proficient understanding of JavaScript, SQL,
-            HTML5, CSS, and React; experience with working with RESTful APIs;
-            and a commanding knowledge of back-end technologies such as Ruby-on-Rails, NodeJS, and postgreSQL database architecture, which I can comfortably leverage to develop user-oriented, full- stack applications. In addition to the projects highlighted in my portfolio, my ability to fully meet any set of deliverables is well-documented in a wide-ranging set of online resources, which include successful fundraising campaigns and press coverage spanning a decade.
+            I've worked on some amazing teams––including at Discover, Johnson
+            and Johnson, Caris Life Sciences, and Cognizant.
           </motion.div>
           <div className={classes.press}>
             <div className={classes.pressBox}>
@@ -88,5 +95,5 @@ export default function About() {
         </div>
       </Layout>
     </>
-  )
+  );
 }
