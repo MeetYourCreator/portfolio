@@ -1,11 +1,11 @@
-import React from "react"
-import "./Projects.css"
-import Layout from "../../components/shared/Layout/Layout.jsx"
-import Project from "../../components/Project/Project.jsx"
-import WorldClock from "../../Assets/react-world-clock-tapestry_projects.mov"
-import TwelveStepAlphabet from "../../Assets/NEW MASTER FOR RENDER.mp4"
-import NewAlternatives from "../../Assets/new-alternatives-vid.mp4"
-import NYTimes from "../../Assets/myc_nytimes-widget.mov"
+import React from "react";
+import "./Projects.css";
+import Layout from "../../components/shared/Layout/Layout.jsx";
+import Project from "../../components/Project/Project.jsx";
+import WorldClock from "../../Assets/react-world-clock-tapestry_projects.mov";
+import TwelveStepAlphabet from "../../Assets/NEW MASTER FOR RENDER.mp4";
+import NewAlternatives from "../../Assets/new-alternatives-vid.mp4";
+import NYTimes from "../../Assets/myc_nytimes-widget.mov";
 
 export default function Projects() {
   return (
@@ -56,8 +56,7 @@ export default function Projects() {
             codeSRC="https://bit.ly/newAlt_gh"
             projectSRC="https://bit.ly/newAlt_site"
           />
-        </div>
-         <Project
+          <Project
             src={NYTimes}
             title="React World Clock Tapestry"
             description="World Clock Widget"
@@ -71,5 +70,5 @@ export default function Projects() {
         </div>
       </Layout>
     </>
-  )
+  );
 }
