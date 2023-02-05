@@ -4,8 +4,9 @@ const useStyles = createUseStyles({
   headerContainer: {
     display: 'flex',
     flexDirection: 'row',
-    justifyContent: 'flex-end',
-    marginBottom: 10
+    justifyContent: 'space-between',
+    marginBottom: 10,
+    marginLeft: 0,
 
   },
 

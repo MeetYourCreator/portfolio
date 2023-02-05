@@ -4,7 +4,6 @@ const useStyles = createUseStyles({
   navContainer: {
     display: 'flex',
     flexDirection: 'row',
-    justifyContent: 'center',
     listStyle: 'none',
     fontFamily: 'Bebas Neue',
     fontSize: 12,
@@ -22,6 +21,16 @@ const useStyles = createUseStyles({
     outline: 'none',
     textDecoration: 'none',
 
+  },
+
+  leftNav: {
+    display: 'flex',
+    flexDirection: 'row',
+  },
+
+  rightNav: {
+    display: 'flex',
+    flexDirection: 'row',
   },
 
   '@media (max-width: 505px)': {
