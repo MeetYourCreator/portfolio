@@ -11,7 +11,7 @@ export default function Nav() {
       <span className={classes.leftNav}>
         <motion.li
           whileHover={{
-            scale: 1.2,
+            scale: 1.8,
             textShadow: "0px 0px 8px rgb(255, 162, 190)",
             type: "tween",
           }}

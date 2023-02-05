@@ -11,6 +11,11 @@ const useStyles = createUseStyles({
     overflowY: 'auto',
   },
 
+  header: {
+    display: 'flex',
+    flexDirection: 'column',
+  },
+
   layoutChildren: {
 
   },

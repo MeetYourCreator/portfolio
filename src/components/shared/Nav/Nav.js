@@ -26,11 +26,13 @@ const useStyles = createUseStyles({
   leftNav: {
     display: 'flex',
     flexDirection: 'row',
+    justifyContent: 'flex-start',
   },
 
   rightNav: {
     display: 'flex',
     flexDirection: 'row',
+    justifyContent: 'flex-end'
   },
 
   '@media (max-width: 505px)': {

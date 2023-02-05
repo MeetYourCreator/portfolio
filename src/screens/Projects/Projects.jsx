@@ -1,11 +1,11 @@
 import React from "react";
-import "./Projects.css";
 import Layout from "../../components/shared/Layout/Layout.jsx";
 import Project from "../../components/Project/Project.jsx";
 import WorldClock from "../../Assets/react-world-clock-tapestry_projects.mov";
 import TwelveStepAlphabet from "../../Assets/NEW MASTER FOR RENDER.mp4";
 import NewAlternatives from "../../Assets/new-alternatives-vid.mp4";
 import NYTimes from "../../Assets/myc_nytimes-widget.mov";
+import "./Projects.css";
 
 export default function Projects() {
   return (
@@ -55,17 +55,6 @@ export default function Projects() {
             descriptionFeature3="Seamless integration of MongoDB, Express, React, and Node.js to implement full CRUD functionality."
             codeSRC="https://bit.ly/newAlt_gh"
             projectSRC="https://bit.ly/newAlt_site"
-          />
-          <Project
-            src={NYTimes}
-            title="React World Clock Tapestry"
-            description="World Clock Widget"
-            descriptionByline="Displays the current time for more than 200 countries in a sleek, minimalist-inspired throwback to the digital alarm clock."
-            descriptionFeature1=""
-            descriptionFeature2=""
-            descriptionFeature3=""
-            codeSRC="https://github.com/MeetYourCreator/react-world-clock-tapestry"
-            projectSRC="https://react-world-clock-tapestry.netlify.app/"
           />
         </div>
       </Layout>

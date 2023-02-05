@@ -1,15 +1,16 @@
-import React from "react"
-import { motion } from "framer-motion"
-import useStyles from "./Layout.js"
-import Header from "../Header/Header.jsx"
+import React from "react";
+import { motion } from "framer-motion";
+import useStyles from "./Layout.js";
+import Header from "../Header/Header.jsx";
 
 export default function Layout({ children }) {
-  const classes = useStyles()
+  const classes = useStyles();
 
   return (
-    <div className={classes.layout}>
-      <header className={classes.header}>
+    <section className={classes.layout}>
+      <header>
         <motion.div
+          className={classes.header}
           animate={{ opacity: 1 }}
           initial={{ opacity: 0 }}
           transition={{
@@ -21,6 +22,6 @@ export default function Layout({ children }) {
         </motion.div>
       </header>
       <div className={classes.layoutChildren}>{children}</div>
-    </div>
-  )
+    </section>
+  );
 }
