@@ -1,9 +1,9 @@
 import React from "react";
-import "./Contact.css";
 import Email from "../../Assets/email-logo.png";
 import LinkedIn from "../../Assets/LinkedIn-icon.png";
 import GitHub from "../../Assets/github-logo.png";
 import Layout from "../../components/shared/Layout/Layout.jsx";
+import "./Contact.css";
 
 const Contact = () => {
   return (
