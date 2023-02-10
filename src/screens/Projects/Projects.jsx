@@ -9,7 +9,7 @@ import "./Projects.css";
 
 export default function Projects() {
   return (
-    <>
+    <section>
       <Layout>
         <div className="projects-container">
           <Project
@@ -58,6 +58,6 @@ export default function Projects() {
           />
         </div>
       </Layout>
-    </>
+    </section>
   );
 }
