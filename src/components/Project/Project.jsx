@@ -1,7 +1,7 @@
-import React from "react"
-import { motion } from "framer-motion"
-import "./Project.css"
-import Video from "../Video/Video.jsx"
+import React from "react";
+import { motion } from "framer-motion";
+import "./Project.css";
+import Video from "../Video/Video.jsx";
 
 const Project = ({
   src,
@@ -16,7 +16,7 @@ const Project = ({
 }) => {
   return (
     <>
-      <div className="project-container">
+      <section className="project-container">
         <div className="project-info">
           <h1 className="project-title">{title}</h1>
           <p className="project-description">{description}</p>
@@ -44,9 +44,9 @@ const Project = ({
         >
           <Video src={src} />
         </motion.div>
-      </div>
+      </section>
     </>
-  )
-}
+  );
+};
 
-export default Project
+export default Project;
