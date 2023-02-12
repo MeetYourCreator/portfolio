@@ -1,21 +1,21 @@
-import React from "react"
-import useStyles from "./About.js"
-import { motion } from "framer-motion"
-import Layout from "../../components/shared/Layout/Layout.jsx"
-import Printmag from "../../Assets/press_printmag.png"
-import HuffingtonPost from "../../Assets/press_huffingtonpost.png"
-import Adbusters103 from "../../Assets/press_adbusters_103.png"
-import Breitbart from "../../Assets/press_breitbart.png"
-import WSJ from "../../Assets/press_wsj.png"
-import TranslatingAnarchy from "../../Assets/press_translating-anarchy.png"
+import React from "react";
+import useStyles from "./About.js";
+import { motion } from "framer-motion";
+import Layout from "../../components/shared/Layout/Layout.jsx";
+import Printmag from "../../Assets/press_printmag.png";
+import HuffingtonPost from "../../Assets/press_huffingtonpost.png";
+import Adbusters103 from "../../Assets/press_adbusters_103.png";
+import Breitbart from "../../Assets/press_breitbart.png";
+import WSJ from "../../Assets/press_wsj.png";
+import TranslatingAnarchy from "../../Assets/press_translating-anarchy.png";
 
 export default function About() {
-  const classes = useStyles()
+  const classes = useStyles();
 
   return (
     <>
       <Layout>
-        <div className={classes.aboutContainer}>
+        <section className={classes.aboutContainer}>
           <h1 className={classes.aboutTitle}>Hi, My name is Rami!</h1>
           <motion.div
             animate={{ opacity: 1 }}
@@ -31,7 +31,14 @@ export default function About() {
             Senior IT Support Engineer in NYC. As my portfolio pieces
             illustrate, I have a proficient understanding of JavaScript, SQL,
             HTML5, CSS, and React; experience with working with RESTful APIs;
-            and a commanding knowledge of back-end technologies such as Ruby-on-Rails, NodeJS, and postgreSQL database architecture, which I can comfortably leverage to develop user-oriented, full- stack applications. In addition to the projects highlighted in my portfolio, my ability to fully meet any set of deliverables is well-documented in a wide-ranging set of online resources, which include successful fundraising campaigns and press coverage spanning a decade.
+            and a commanding knowledge of back-end technologies such as
+            Ruby-on-Rails, NodeJS, and postgreSQL database architecture, which I
+            can comfortably leverage to develop user-oriented, full- stack
+            applications. In addition to the projects highlighted in my
+            portfolio, my ability to fully meet any set of deliverables is
+            well-documented in a wide-ranging set of online resources, which
+            include successful fundraising campaigns and press coverage spanning
+            a decade.
           </motion.div>
           <div className={classes.press}>
             <div className={classes.pressBox}>
@@ -85,8 +92,8 @@ export default function About() {
               />
             </div>
           </div>
-        </div>
+        </section>
       </Layout>
     </>
-  )
+  );
 }
